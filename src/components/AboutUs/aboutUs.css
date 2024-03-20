@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.aboutUS {
+  background-image: url(../../images/GigaChad.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 1px;
+}
+.contentUs {
+  margin: 0 auto;
+  width: 1170px;
+}
+.conteinerUs {
+  padding: 120px 90px 120px 600px;
+}
+.textAbout {
+  color: rgba(255, 173, 40, 1);
+  font-weight: 700;
+}
+.textWelcome {
+  font-weight: 700;
+  color: azure;
+}
+.allResultAbout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.textJust {
+  font-weight: 600;
+  color: azure;
+}
+.resultsAbout {
+}
+.resultsAbout h3 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgba(255, 173, 40, 1);
+}
+.resultsAbout p {
+  font-weight: 600;
+  color: azure;
+}
+.buttonJoin {
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: azure;
+  font-size: 20px;
+  border: 2px solid rgba(255, 173, 40, 1);
+  background: transparent;
+  margin: 40px 0px;
+  padding: 12px 35px;
+}
+.buttonJoin:hover {
+  background: rgb(162, 131, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(162, 131, 62, 1) 0%,
+    rgba(255, 173, 40, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

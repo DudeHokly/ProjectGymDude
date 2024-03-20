@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.FooterSection {
+  background-color: #555454;
+  margin: 0 auto;
+}
+.conteinerFooter {
+  display: flex;
+  justify-content: center;
+}
+.rowFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.CardFooter {
+  padding: 30px 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.aboutCard p {
+  font-size: 18px;
+  color: rgb(153, 153, 153);
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+}
+
+.BottomCopiright {
+  text-align: center;
+}
+.margCopiraight {
+  padding: 35px;
+}

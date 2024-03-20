@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.teamGroup {
+  background-color: rgba(255, 173, 40, 1);
+}
+.conteinerTeam {
+  margin: 0 auto;
+  width: 1170px;
+}
+.rowTextTeam {
+  display: flex;
+  justify-content: center;
+}
+.teamTrenners {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.photoTrenera {
+  border-radius: 60px;
+  height: 400px;
+  width: 400px;
+}
+.PaddingDiv {
+  margin: 40px;
+}
+.TextTrenners {
+  font-weight: bold;
+  font-size: 37px;
+  color: azure;
+}
+.lowerTextKartochki {
+}
+.nameTrener {
+  color: azure;
+  font-size: 22px;
+  font-weight: 700;
+}
+.iconTeam {
+  padding-top: 130px;
+  margin-bottom: -380px;
+}
+.iconTeam2 {
+  margin-top: -300px;
+  margin-left: 80%;
+  padding-bottom: 120px;
+}
+.gif {
+  width: 500px;
+}
+.lowerTextKartochki p {
+  color: azure;
+  font-size: 18px;
+  font-weight: normal;
+}
+.TeamIcons {
+  margin-top: 7%;
+}

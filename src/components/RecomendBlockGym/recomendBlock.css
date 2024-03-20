@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.contentRecomendBlock {
+  margin: 0 auto;
+}
+.recomendBlockGym {
+  padding-top: 65px;
+  margin: 0 auto;
+  background-color: #ececec;
+  padding-bottom: 75px;
+}
+.textRecomend {
+  padding: 15px;
+  color: rgba(255, 173, 40, 1);
+  font-size: 31px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.textRecomend2 {
+  padding: 3px 20px;
+  font-size: 41px;
+  font-weight: 800;
+  text-align: center;
+  font-family: sans-serif;
+}
+.kartochkiAnimated {
+  margin: 30px 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: space-between;
+}
+.Kartochka {
+  padding: 55px 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+.Kartochka:hover {
+}
+.ZagolovKartoch {
+  padding: 5px 25px;
+  font-size: 26px;
+}
+.textCard {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.Kartochka a {
+}
