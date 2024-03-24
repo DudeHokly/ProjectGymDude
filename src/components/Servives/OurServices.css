@@ -1,87 +1,38 @@
-* {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 .OurServices {
+  padding: 130px 0 365px;
+  background-color: black;
 }
 .ServicesConteiner {
-  margin: 0 auto;
-}
-.icon_box {
-  background-color: rgba(255, 173, 40, 1);
-  padding: 60px 10px;
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 500px;
-}
-.contentServices {
-  margin: 20px 500px;
-  text-align: center;
-}
-.textServices2 {
-}
-.img_left {
-  width: 300px;
-}
-.img_right {
-  width: 300px;
-}
-.facilities_section {
-  margin: -435px 700px 50px 700px;
-  width: 1170px;
-}
-.facilities_conteiner {
-}
-.row_kartochki {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  padding: 0;
-  margin: 0;
-}
-.padding_card {
-  margin: 0;
-  padding: 0;
-  padding-top: 220px;
-}
-.facilities_content {
-  padding: 0px 170px 55px 35px;
-}
-.card_tren {
-  background-image: url(../../images/personalTrainer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card_yoga {
-  background-image: url(../../images/Yoga.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card_box {
-  background-image: url(../../images/BoxFight.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card_kardio {
-  background-image: url(../../images/kardio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.textWhiteLeftyUp {
-  font-size: 22px;
-  color: azure;
-  font-weight: 600;
-}
-.textWhiteLeftyLow {
-  font-size: 18px;
-  color: azure;
-  font-weight: 500;
 }
 
-.KnowMoreBtn {
-  color: azure;
-  text-decoration: none;
+.contentServices {
+  min-height: 176px;
+  text-align: center;
 }
-.facilities_content p {
-  margin: 45px 0px;
+._placeIcon {
+  font-size: 150px;
+}
+.row {
+  color: azure;
+}
+.textServices1 {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 0 0 10px;
+}
+.textServices2 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 0 180px;
+  line-height: 170%;
+}
+._services_left_icon {
+  color: azure;
+  position: absolute;
+  left: 0;
+}
+._services_right_icon {
+  color: azure;
+  position: absolute;
+  right: 0;
 }

@@ -2,8 +2,8 @@ import "./aboutUs.css";
 
 export default function AboutUS() {
   return (
-    <div className="aboutUS">
-      <div className="contentUs">
+    <section className="aboutUS">
+      <div className="contentUs _conteiner">
         <div className="conteinerUs">
           <h2 className="textAbout">О нас</h2>
           <h1 className="textWelcome">ДОБРО ПОЖАЛОВАТЬ В XTREME FITNESS</h1>
@@ -32,9 +32,13 @@ export default function AboutUS() {
               <p>ИДЕАЛЬНЫЙ РЕЗУЛЬТАТ</p>
             </div>
           </div>
-          <button className="buttonJoin">Присоединиться</button>
+          <div className="buttonJoin">
+            <a href="#" className="buttonUs">
+              Присоединиться
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

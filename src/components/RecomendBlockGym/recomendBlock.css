@@ -1,39 +1,28 @@
-* {
-  box-sizing: border-box;
-}
-.contentRecomendBlock {
-  margin: 0 auto;
-}
 .recomendBlockGym {
   padding-top: 65px;
-  margin: 0 auto;
   background-color: #ececec;
   padding-bottom: 75px;
 }
 .textRecomend {
-  padding: 15px;
-  color: rgba(255, 173, 40, 1);
+  color: black;
   font-size: 31px;
-  text-align: center;
-  font-family: sans-serif;
 }
 .textRecomend2 {
-  padding: 3px 20px;
   font-size: 41px;
   font-weight: 800;
-  text-align: center;
-  font-family: sans-serif;
 }
 .kartochkiAnimated {
-  margin: 30px 600px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  justify-content: space-between;
+}
+.rowRecomend {
+  min-height: 138px;
+  line-height: 350%;
+  text-align: center;
 }
 .Kartochka {
   padding: 55px 40px;
-  margin: 0 auto;
   text-align: center;
   background-color: #fff;
 }
@@ -45,7 +34,9 @@
 }
 .textCard {
   padding: 5px 10px;
-  font-size: 16px;
+}
+.icon i {
+  font-size: 60px;
 }
 .Kartochka a {
 }

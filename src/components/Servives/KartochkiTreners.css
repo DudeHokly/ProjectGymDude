@@ -1,0 +1,57 @@
+.facilities_section {
+  padding: 0 0 130px;
+  margin-top: -315px;
+}
+.row_kartochki {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.facilities_conteiner a {
+  color: azure;
+}
+.padding_card {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card_tren {
+  background-image: url(../../images/personalTrainer.jpg);
+}
+.card_yoga {
+  background-image: url(../../images/Yoga.jpg);
+}
+.card_box {
+  background-image: url(../../images/BoxFight.jpg);
+}
+.card_kardio {
+  background-image: url(../../images/kardio.jpg);
+}
+.facilities_content {
+  /*Как то исправить пэддинг карточки*/
+  padding: 250px 0 40px 50px;
+  line-height: 170%;
+  left: 40px;
+  color: azure;
+}
+.icon_facilities {
+  padding: 0px 0 30px;
+}
+.icon_facilities i {
+  font-weight: 400;
+  font-size: 80px;
+}
+.textWhiteLeftyUp {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.textWhiteLeftyLow {
+  margin: 0 0 16px;
+  padding: 0 130px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.KnowMoreBtn {
+  text-decoration: none;
+}
