@@ -44,33 +44,25 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="CardFooter">
-            <div className="aboutCard padAbout2">
+          <div className="footer__navigation">
+            <div className="CardFooter aboutCard padAbout2">
               <h6>Часы работы</h6>
               <ul className="spisokFooter">
                 <li>
                   <p>Понедельник - Суббота</p>
-                </li>
-                <li className="padSpan">
                   <span>12.00 - 14.45</span>
                 </li>
                 <li>
                   <p>Воскресенье - Четверг</p>
-                </li>
-                <li className="padSpan">
                   <span>17.00 - 00.00</span>
                 </li>
                 <li>
                   <p>Пятница - Суббота</p>
-                </li>
-                <li className="padSpan">
                   <span>17.00 - 00.00</span>
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="CardFooter">
-            <div className="aboutCard padAbout3">
+            <div className="CardFooter aboutCard padAbout3">
               <h6>Quick Links</h6>
               <ul className="spisokFooter">
                 <li>
@@ -100,27 +92,19 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="CardFooter">
-            <div className="aboutCard padAbout3">
+            <div className="CardFooter aboutCard padAbout3">
               <h6>Связаться с нами</h6>
               <ul className="spisokFooter">
                 <li>
                   <p>Адрес:</p>
-                </li>
-                <li className="padSpan">
                   <span>121 Московский район, 7, Санкт-Петербург</span>
                 </li>
                 <li>
                   <p>Email:</p>
-                </li>
-                <li className="padSpan">
                   <span>info@kachatsa.ru</span>
                 </li>
                 <li>
                   <p>Телефон:</p>
-                </li>
-                <li>
                   <span>+799921245234</span>
                 </li>
               </ul>
