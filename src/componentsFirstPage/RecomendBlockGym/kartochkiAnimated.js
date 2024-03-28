@@ -1,5 +1,3 @@
-const list = document.querySelector("list");
-
 export default function KartochkaAnimated({ cards }) {
   const cardsJsx = cards.map((elem, i) => {
     return (
