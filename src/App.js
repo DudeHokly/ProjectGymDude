@@ -12,23 +12,19 @@ import { Helmet } from "react-helmet";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
-  //…уже написанный код для главной страницы,
   {
-    path: "/Services",
-    element: <HeaderServices />,
+    path: "/",
+    element: <MainPage/>,
     // errorElement: <Error404 />,
+  },
+  {
+    path: "/services",
+    element: <HeaderServices />,
+    
   },
 ]);
 
-function SitePage() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
-}
-
-export default function App() {
+function MainPage() {
   return (
     <div className="ProjectGym">
       <Helmet>
@@ -45,5 +41,13 @@ export default function App() {
       <Footer />
       <HeaderServices />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }

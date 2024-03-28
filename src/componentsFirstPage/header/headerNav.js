@@ -1,23 +1,23 @@
+import { Link } from "react-router-dom";
+
 export default function HeaderNav() {
   return (
     <div className="menu _conteiner">
       <figure className="logo">
-        <a href="#">
+        <Link to="/">
           <i className="icon-wheelchair"></i>
-        </a>
+        </Link>
       </figure>
       <div className="menu_blocks">
         <nav className="nav_menu">
           <ul className="navigation">
             <li>
-              <a href="#" className="defolt">
+              <a href="/" className="defolt">
                 Главная
               </a>
             </li>
             <li>
-              <a href="#" className="defolt">
-                Услуги
-              </a>
+              <Link to="/services"> Услуги </Link>
             </li>
             <li>
               <a href="#" className="defolt">
