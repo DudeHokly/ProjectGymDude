@@ -4,6 +4,33 @@ import Trenner2 from "../../images/Trener2.jpg";
 import Trenner3 from "../../images/Trener3.jpg";
 import "../../icons/css/fontello.css";
 
+const cardOfTrenners = [
+  {
+    topPhotoTrenera: (
+      <figure className="topPhotoTrenera">
+        <img src={Trenner1} alt="Фото тренера" className="photoTrenera"></img>
+      </figure>
+    ),
+    nameTrener: <h5 className="nameTrener">Тренер1</h5>,
+    textTeam1: <p className="textTeam">Кроссфит</p>,
+    TeamIcon1: (
+      <a href="#">
+        <i className="icon-skype"></i>
+      </a>
+    ),
+    TeamIcon2: (
+      <a href="#">
+        <i className="icon-paper-plane"></i>
+      </a>
+    ),
+    TeamIcon3: (
+      <a href="#">
+        <i className="icon-gplus"></i>
+      </a>
+    ),
+  },
+];
+
 export default function TeamGroup() {
   return (
     <section className="teamGroup ">
@@ -16,6 +43,7 @@ export default function TeamGroup() {
         <div className="rowTextTeam">
           <h2 className="TextTrenners">Наши Профессиональные Тренера</h2>
         </div>
+
         <div className="teamTrenners">
           <div className="boxKartochki">
             <figure className="topPhotoTrenera">
@@ -27,7 +55,7 @@ export default function TeamGroup() {
             </figure>
             <div className="lowerTextKartochki">
               <h5 className="nameTrener">Тренер1</h5>
-              <p>Кроссфит</p>
+              <p className="textTeam">Кроссфит</p>
               <div className="TeamIcons">
                 <a href="#">
                   <i className="icon-skype"></i>
@@ -51,7 +79,7 @@ export default function TeamGroup() {
             </figure>
             <div className="lowerTextKartochki">
               <h5 className="nameTrener">Тренер2</h5>
-              <p>Бокс</p>
+              <p className="textTeam">Бокс</p>
               <div className="TeamIcons">
                 <a href="#">
                   <i className="icon-skype"></i>
@@ -75,7 +103,7 @@ export default function TeamGroup() {
             </figure>
             <div className="lowerTextKartochki">
               <h5 className="nameTrener">Тренер3</h5>
-              <p>Поуэрлифтинг</p>
+              <p className="textTeam">Поуэрлифтинг</p>
               <div className="TeamIcons">
                 <a href="#">
                   <i className="icon-skype"></i>

@@ -1,0 +1,35 @@
+.headerServices {
+  background-image: url(./table.jpg);
+}
+.bannerSectionHeader {
+  padding: 100px 0;
+}
+.row {
+  text-align: center;
+  line-height: 265%;
+}
+.row h1 {
+  margin: 0 0 20px;
+  font-size: 58px;
+  font-weight: 700;
+}
+.bannerSectionContentBtn {
+  margin: 0 auto;
+  padding: 0;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+.bannerSectionContentBtn:hover {
+  transition: all 0.3s;
+  background: rgb(103, 103, 103);
+}
+.bannerSectionContentBtn span {
+  padding: 11px;
+}
+.spn_Home {
+  color: azure;
+}
+.spn_Join {
+  color: rgb(255, 0, 0);
+}

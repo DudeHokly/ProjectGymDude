@@ -12,17 +12,16 @@ export default function HeaderNav() {
         <nav className="nav_menu">
           <ul className="navigation">
             <li>
-              <a href="/" className="defolt">
-                Главная
-              </a>
+              <Link to="/" className="defolt">
+                {" "}
+                Главная{" "}
+              </Link>
             </li>
             <li>
               <Link to="/services"> Услуги </Link>
             </li>
             <li>
-              <a href="#" className="defolt">
-                Наши тренера
-              </a>
+              <Link to="/TeamPage"> Наши тренера </Link>
             </li>
             <li>
               <a href="#" className="defolt">

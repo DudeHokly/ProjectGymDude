@@ -38,19 +38,17 @@
   font-weight: 700;
   margin: 0 0 4px;
 }
-.lowerTextKartochki p {
+.textTeam {
   line-height: 130%;
   font-size: 15px;
   font-weight: 300;
   margin: 0 0 14px;
-}
-.gif {
-  width: 500px;
-}
-.lowerTextKartochki p {
   color: azure;
   font-size: 18px;
   font-weight: normal;
+}
+.gif {
+  width: 500px;
 }
 .TeamIcons {
   margin-top: 25px;
