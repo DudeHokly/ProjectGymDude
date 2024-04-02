@@ -11,10 +11,7 @@ export default function Schedule() {
             Ниже можете ознакомиться с нашими мероприятиями
           </h2>
         </div>
-        <div className="ScheduleTable">
-          <p>Таблица в разработке</p>
-          <div className="tableImg"></div>
-        </div>
+        <div className="ScheduleTable"></div>
       </div>
     </section>
   );

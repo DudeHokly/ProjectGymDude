@@ -15,6 +15,8 @@ import Schedule from "./componentsServicePage/SchedyleBlock/Schedule.js";
 
 import HeaderTeamPage from "./compoentsTeamPage/HeaderTeamPage/HeaderTeamPage.js";
 
+import TestPage from "./testPage/testPage.js";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/TeamPage",
     element: <TeamTreners />,
+  },
+  {
+    path: "/TestPage",
+    element: <Test />,
   },
 ]);
 
@@ -68,6 +74,15 @@ function TeamTreners() {
     <div className="TeamPage">
       <HeaderTeamPage />
       <TeamGroup />
+      <Footer />
+    </div>
+  );
+}
+
+function Test() {
+  return (
+    <div className="test">
+      <TestPage />
     </div>
   );
 }

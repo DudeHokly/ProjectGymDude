@@ -1,24 +1,17 @@
 export default function KartochkaAnimated({ cards }) {
   const cardsJsx = cards.map((elem, i) => {
-    return (
-      <Kartochka
-        icon={elem.icon}
-        title={elem.title}
-        text={elem.text}
-        href={elem.link}
-      />
-    );
+    return <Kartochka elem={elem} />;
   });
   return <div className="kartochkiAnimated">{cardsJsx}</div>;
 }
 
-function Kartochka({ icon, title, text, href }) {
+function Kartochka({ elem }) {
   return (
     <div className="Kartochka">
-      <div className="icon">{icon}</div>
-      <h2 className="ZagolovKartoch">{title}</h2>
-      <p className="textCard">{text}</p>
-      <a href={href}>Узнать больше</a>
+      <div className="icon">{elem.icon}</div>
+      <h2 className="ZagolovKartoch">{elem.title}</h2>
+      <p className="textCard">{elem.text}</p>
+      <a href={elem.link}>Узнать больше</a>
     </div>
   );
 }
