@@ -15,9 +15,11 @@
   color: azure;
 }
 .teamTrenners {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .boxKartochki {
   padding: 0 25px;

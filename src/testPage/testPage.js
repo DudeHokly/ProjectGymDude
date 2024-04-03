@@ -10,13 +10,11 @@ const days = [
   "Четверг",
   "Пятница",
 ];
-// const WorkTime = ["08:00", "10:00", "16:00", "20:00", "22:00"];
 
 const blank = {
   title: "",
   desc: "",
 };
-
 const cardio = {
   title: "Cardio",
   desc: "Cardio Excersices",
@@ -25,25 +23,26 @@ const yoga = {
   title: "YOGA",
   desc: "Yoga Session",
 };
-
-/*
-const UpEx = ["Cardio", "YOGA", "GYM", "CROSSFIT", "BOXING"];
-const DownEx = [
-  "Cardio Excersices",
-  "Yoga Session",
-  "Mass Gain",
-  "Streching",
-  "Boxings",
-];
-*/
+const gym = {
+  title: "GYM",
+  desc: "Mass Gain",
+};
+const crossfit = {
+  title: "CROSSFIT",
+  desc: "Mass Gain",
+};
+const box = {
+  title: "BOXING",
+  desc: "Mass Gain",
+};
 
 const schedule = [
   days,
-  ["8:00", cardio, cardio, cardio, blank, cardio, yoga],
-  ["10:00", cardio, cardio, cardio, yoga, cardio, yoga],
-  ["16:00", cardio, cardio, cardio, yoga, cardio, yoga],
-  ["20:00", cardio, cardio, cardio, yoga, cardio, yoga],
-  ["22:00", cardio, cardio, cardio, yoga, cardio, yoga],
+  ["8:00", cardio, cardio, cardio, cardio, cardio, cardio],
+  ["10:00", yoga, yoga, blank, yoga, yoga, blank],
+  ["16:00", gym, blank, gym, gym, blank, blank],
+  ["20:00", crossfit, crossfit, blank, blank, crossfit, crossfit],
+  ["22:00", box, box, box, box, box, box],
 ];
 
 const scheduleJsx = [];
@@ -52,16 +51,17 @@ for (let i = 0; i < schedule.length; i++) {
   for (let j = 0; j < schedule[i].length; j++) {
     let blockClass = "";
     if (i === 0) {
-      blockClass = "black";
+      blockClass = "tableUpblackBlock";
       scheduleJsx.push(
         <ScheduleCard title={schedule[i][j]} className={blockClass} />
       );
     } else if (j === 0) {
-      blockClass = "time";
+      blockClass = "tableTimeBlock";
       scheduleJsx.push(
         <ScheduleCard title={schedule[i][j]} className={blockClass} />
       );
     } else {
+      blockClass = "tableScheduleBlockWhite";
       scheduleJsx.push(
         <ScheduleCard
           title={schedule[i][j].title}

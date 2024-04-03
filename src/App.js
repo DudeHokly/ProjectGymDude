@@ -14,6 +14,9 @@ import HeaderServices from "./componentsServicePage/HeaderServices/HeaderService
 import Schedule from "./componentsServicePage/SchedyleBlock/Schedule.js";
 
 import HeaderTeamPage from "./compoentsTeamPage/HeaderTeamPage/HeaderTeamPage.js";
+import TeamPageDudes from "./compoentsTeamPage/TeamPageTreners/TeamPageTreners.js";
+
+import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
 import TestPage from "./testPage/testPage.js";
 
@@ -34,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/TestPage",
     element: <Test />,
+  },
+  {
+    path: "/Pricing",
+    element: <PricingPage />,
   },
 ]);
 
@@ -73,7 +80,17 @@ function TeamTreners() {
   return (
     <div className="TeamPage">
       <HeaderTeamPage />
-      <TeamGroup />
+      <TeamPageDudes />
+      <Footer />
+    </div>
+  );
+}
+
+function PricingPage() {
+  return (
+    <div className="TeamPage">
+      <HeaderPrice />
+
       <Footer />
     </div>
   );

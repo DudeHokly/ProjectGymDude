@@ -24,9 +24,7 @@ export default function HeaderNav() {
               <Link to="/TeamPage"> Наши тренера </Link>
             </li>
             <li>
-              <a href="#" className="defolt">
-                Цены
-              </a>
+              <Link to="/Pricing"> Цены </Link>
             </li>
             <li>
               <Link to="/TestPage"> TestPage </Link>

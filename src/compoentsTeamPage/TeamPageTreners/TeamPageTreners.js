@@ -1,8 +1,14 @@
-import "./OurTeam.css";
+import "./TeamPageTreners.css";
+import "../../icons/css/fontello.css";
 import Trenner1 from "../../images/Trener1.jpg";
 import Trenner2 from "../../images/Trener2.jpg";
 import Trenner3 from "../../images/Trener3.jpeg";
-import "../../icons/css/fontello.css";
+import Trenner4 from "../../images/Trener4.jpg";
+import Trenner5 from "../../images/Trener5.jpg";
+import Trenner6 from "../../images/Trener6.jpeg";
+import Trenner7 from "../../images/Trener7.jpg";
+import Trenner8 from "../../images/Trener8.png";
+import Trenner9 from "../../images/Trener9.jpg";
 
 const cardOfTrenners = [
   {
@@ -19,6 +25,36 @@ const cardOfTrenners = [
     Trenera: Trenner3,
     nameTrener: "Machio Naruzo",
     textTeam1: <p className="textTeam">Поуэрлифтинг</p>,
+  },
+  {
+    Trenera: Trenner4,
+    nameTrener: "Tachibana Satomi",
+    textTeam1: <p className="textTeam">Кардио Нагрузки</p>,
+  },
+  {
+    Trenera: Trenner5,
+    nameTrener: "Кибер Демон",
+    textTeam1: <p className="textTeam">Гига Хакинг</p>,
+  },
+  {
+    Trenera: Trenner6,
+    nameTrener: "Gina Boyd",
+    textTeam1: <p className="textTeam">Специалист по гантелям</p>,
+  },
+  {
+    Trenera: Trenner7,
+    nameTrener: "Soryuin Akemi",
+    textTeam1: <p className="textTeam">Фитнес-тренер</p>,
+  },
+  {
+    Trenera: Trenner8,
+    nameTrener: "Barnold Shortsinator",
+    textTeam1: <p className="textTeam">Спортивный судья</p>,
+  },
+  {
+    Trenera: Trenner9,
+    nameTrener: "Kure Yakusha",
+    textTeam1: <p className="textTeam">Инструктор по фитнесу</p>,
   },
 ];
 
@@ -55,9 +91,9 @@ function TrenerCard({ elem }) {
   );
 }
 
-export default function TeamGroup() {
+export default function TeamPageDudes() {
   return (
-    <section className="teamGroup ">
+    <section className="DudesAreTreners">
       <div className="conteinerTeam _conteiner">
         <div className="_placeIcon">
           <figure className="_services_right_icon">
