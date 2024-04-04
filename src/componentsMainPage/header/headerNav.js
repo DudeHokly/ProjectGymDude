@@ -27,13 +27,13 @@ export default function HeaderNav() {
               <Link to="/Pricing"> Цены </Link>
             </li>
             <li>
-              <Link to="/TestPage"> TestPage </Link>
-              {/* О нас */}
+              <Link to="/Authorization"> Авторизация </Link>
             </li>
+            {/* <li>
+              <Link to="/TestPage"> TestPage </Link>
+            </li> */}
             <li>
-              <a href="#" className="krug">
-                Связаться с нами
-              </a>
+            <Link to="/ContactUs" className="krug"> Связаться с нами </Link>
             </li>
           </ul>
         </nav>

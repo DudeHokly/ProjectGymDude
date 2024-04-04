@@ -18,6 +18,10 @@ import TeamPageDudes from "./compoentsTeamPage/TeamPageTreners/TeamPageTreners.j
 
 import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
+import AuthorizationGestPage from "./AuthorizationGestPage/AuthorizationGestPage.js"
+
+import ContactUs from "./ContactUsPage/ContactUsPage.js"
+
 import TestPage from "./testPage/testPage.js";
 
 const router = createBrowserRouter([
@@ -42,6 +46,14 @@ const router = createBrowserRouter([
     path: "/Pricing",
     element: <PricingPage />,
   },
+  {
+    path: "/Authorization",
+    element: <AuthorizationPage />,
+  },
+  {
+    path: "/ContactUs",
+    element: <ContactUsPage />,
+  }
 ]);
 
 function MainPage() {
@@ -95,6 +107,21 @@ function PricingPage() {
     </div>
   );
 }
+function AuthorizationPage() {
+  return (
+    <div className="Authoriz">
+      <AuthorizationGestPage />
+    </div>
+  );
+}
+function ContactUsPage() {
+  return (
+    <div className="Contact">
+      <ContactUs />
+    </div>
+  );
+}
+
 
 function Test() {
   return (
