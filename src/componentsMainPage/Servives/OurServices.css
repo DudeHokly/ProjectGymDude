@@ -15,14 +15,14 @@
 .row {
   color: azure;
 }
-.textServices1 {
+.textServicess1 {
   font-weight: 600;
-  font-size: 24px;
-  padding: 0 0 10px;
+  font-size: 45px;
+  padding: 5px 0 10px;
 }
 .textServices2 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   padding: 0 180px;
   line-height: 170%;
 }

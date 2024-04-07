@@ -18,9 +18,11 @@ import TeamPageDudes from "./compoentsTeamPage/TeamPageTreners/TeamPageTreners.j
 
 import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
-import AuthorizationGestPage from "./AuthorizationGestPage/AuthorizationGestPage.js"
+import AuthorizationGestPage from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
-import ContactUs from "./ContactUsPage/ContactUsPage.js"
+import Prices from "./componentsPricePage/Prices/Prices.js";
+
+import ContactUs from "./ContactUsPage/ContactUsPage.js";
 
 import TestPage from "./testPage/testPage.js";
 
@@ -53,7 +55,7 @@ const router = createBrowserRouter([
   {
     path: "/ContactUs",
     element: <ContactUsPage />,
-  }
+  },
 ]);
 
 function MainPage() {
@@ -93,6 +95,7 @@ function TeamTreners() {
     <div className="TeamPage">
       <HeaderTeamPage />
       <TeamPageDudes />
+      <p>Отзывы клиентов</p>
       <Footer />
     </div>
   );
@@ -102,7 +105,7 @@ function PricingPage() {
   return (
     <div className="TeamPage">
       <HeaderPrice />
-
+      <Prices />
       <Footer />
     </div>
   );
@@ -121,7 +124,6 @@ function ContactUsPage() {
     </div>
   );
 }
-
 
 function Test() {
   return (

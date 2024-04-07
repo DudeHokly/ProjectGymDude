@@ -1,7 +1,19 @@
-import "./OurServices.css";
+import "./Prices.css";
 import "../../icons/css/fontello.css";
 
-export default function Services() {
+const PriceCards = [
+  {
+    SamplePhoto: <i className="icon-accessibility"></i>,
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+];
+
+export default function Prices() {
   return (
     <section className="OurServices">
       <div className="ServicesConteiner _conteiner">
@@ -13,7 +25,7 @@ export default function Services() {
           </div>
           <div className="contentServices _conteiner">
             <div className="row">
-              <h2 className="textServicess1">МЫ ПРЕДЛАГАЕМ</h2>
+              <h2 className="textServices1">МЫ ПРЕДЛАГАЕМ</h2>
               <h3 className="textServices2">
                 ВСЕ НЕОБХОДИМОЕ ДЛЯ ПОДДЕРЖАНИЯ ФОРМЫ И ХОРОШЕГО САМОЧУВСТВИЯ
               </h3>
