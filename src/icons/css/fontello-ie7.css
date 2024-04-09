@@ -34,6 +34,7 @@
 .icon-emo-wink2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;&nbsp;'); }
 .icon-emo-happy { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe816;&nbsp;'); }
 .icon-spin5 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe817;&nbsp;'); }
+.icon-user { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe818;&nbsp;'); }
 .icon-giraffe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81b;&nbsp;'); }
 .icon-skiing { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe836;&nbsp;'); }
 .icon-swimming { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe838;&nbsp;'); }
@@ -59,6 +60,7 @@
 .icon-angellist { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf209;&nbsp;'); }
 .icon-hand-lizard-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf258;&nbsp;'); }
 .icon-chrome { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf268;&nbsp;'); }
+.icon-wheelchair-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf29b;&nbsp;'); }
 .icon-blind-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf29d;&nbsp;'); }
 .icon-sign-language { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2a7;&nbsp;'); }
 .icon-github-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf300;&nbsp;'); }

@@ -1,4 +1,5 @@
 .facilities_section {
+  /* background-color: black; */
   padding: 0 0 130px;
   margin-top: -315px;
 }
@@ -15,16 +16,16 @@
   background-size: cover;
 }
 .card_tren {
-  background-image: url(../../images/personalTrainer.jpg);
+  background-image: url(../../images/personalTrainer.png);
 }
 .card_yoga {
-  background-image: url(../../images/Yoga.jpg);
+  background-image: url(../../images/Yoga.png);
 }
 .card_box {
-  background-image: url(../../images/BoxFight.jpg);
+  background-image: url(../../images/kardio.png);
 }
 .card_kardio {
-  background-image: url(../../images/kardio.jpg);
+  background-image: url(../../images/BoxFight.png);
 }
 .facilities_content {
   /*Как то исправить пэддинг карточки*/

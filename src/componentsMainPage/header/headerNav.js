@@ -18,17 +18,24 @@ export default function HeaderNav() {
               </Link>
             </li>
             <li>
-              <Link to="/services"> Услуги </Link>
+              <Link to="/services" className="defolt">
+                {" "}
+                Услуги{" "}
+              </Link>
             </li>
             <li>
-              <Link to="/TeamPage"> Наши тренера </Link>
+              <Link to="/TeamPage" className="defolt">
+                {" "}
+                Наши тренера{" "}
+              </Link>
             </li>
             <li>
-              <Link to="/Pricing"> Цены </Link>
+              <Link to="/Pricing" className="defolt">
+                {" "}
+                Цены{" "}
+              </Link>
             </li>
-            <li>
-              <Link to="/Authorization"> ИконкаАвРеги </Link>
-            </li>
+
             {/* <li>
               <Link to="/TestPage"> TestPage </Link>
             </li> */}
@@ -37,6 +44,26 @@ export default function HeaderNav() {
                 {" "}
                 Связаться с нами{" "}
               </Link>
+            </li>
+
+            <li className="iconNav">
+              <Link to="/" className="defolt">
+                <i className="icon-user iconSing"></i>
+              </Link>
+              <ul className="iconSingIn">
+                <li>
+                  <Link to="/" className="defoltIcon">
+                    {" "}
+                    Авторизоваться{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="defoltIcon">
+                    {" "}
+                    Зарегестрироватсья{" "}
+                  </Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>

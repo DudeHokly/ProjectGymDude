@@ -1,6 +1,6 @@
 .teamGroup {
   padding: 90px 0 180px;
-  background-color: black;
+  background-color: #eda02d;
 }
 .conteinerTeam {
 }
@@ -12,7 +12,7 @@
   margin: 0 0 51px;
   font-weight: bold;
   font-size: 33px;
-  color: azure;
+  color: black;
 }
 .teamTrenners {
   display: grid;
@@ -35,7 +35,7 @@
 }
 .nameTrener {
   line-height: 130%;
-  color: azure;
+  color: black;
   font-size: 22px;
   font-weight: 700;
   margin: 0 0 4px;
@@ -45,7 +45,7 @@
   font-size: 15px;
   font-weight: 300;
   margin: 0 0 14px;
-  color: azure;
+  color: black;
   font-size: 18px;
   font-weight: normal;
 }
@@ -58,5 +58,5 @@
 .TeamIcons i {
   margin: 0 7px;
   font-size: 30px;
-  color: azure;
+  color: black;
 }

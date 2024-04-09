@@ -7,6 +7,9 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 a {
   text-decoration: none;
 }
@@ -26,7 +29,7 @@ h5,
 h6 {
 }
 header {
-  background-image: url(../../images/meAndVin.jpg);
+  background-image: url(../../images/meAndVin.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -70,7 +73,7 @@ header {
   transition: all 0.3s;
 }
 .defolt:hover {
-  color: rgba(255, 173, 40, 1);
+  color: #eda02d;
 }
 .navigation li {
   line-height: 171%;
@@ -80,12 +83,12 @@ header {
   margin: 0 21px 0 0;
 }
 .krug {
-  border: 2px solid black;
+  border: 2px solid #eda02d;
   padding: 10px 32px;
   border-radius: 40px;
 }
 .krug:hover {
-  background: black;
+  background: #eda02d;
 }
 .ScrollLeft {
   padding: 250px 0 185px;
@@ -108,19 +111,47 @@ header {
   display: inline-flex;
 }
 
-.disapearLink a {
+.disapearLink Link {
   transition: all 0.3s;
   color: azure;
 }
 .krug2 {
+  color: azure;
   line-height: 150%;
   min-height: 48px;
   font-size: 20px;
-  border: 2px solid black;
+  border: 2px solid #eda02d;
   justify-content: center;
   border-radius: 40px;
   padding: 5px 36px;
 }
 .krug2:hover {
-  background: black;
+  background: #eda02d;
+}
+.iconSing {
+  padding: 3px;
+  border-radius: 40px;
+  border: 2px solid white;
+  font-size: 22px;
+}
+.iconSing:hover {
+  background: white;
+}
+
+.iconSingIn {
+  padding: 10px;
+  position: absolute;
+  display: none;
+  color: #eda02d;
+}
+
+.iconSingIn:hover {
+  border-radius: 5px;
+  background-color: #eda02d;
+}
+.iconNav:hover > ul {
+  display: initial;
+}
+.defoltIcon:hover {
+  color: black;
 }

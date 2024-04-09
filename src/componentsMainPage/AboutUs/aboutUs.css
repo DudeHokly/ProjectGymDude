@@ -3,21 +3,19 @@
   background-position: center;
   background-size: cover;
   padding-top: 1px;
-}
-.contentUs {
+  color: white;
 }
 .conteinerUs {
   padding: 120px 90px 120px 600px;
 }
 .textAbout {
+  font-size: 30px;
   line-height: 150%;
-  color: black;
   font-weight: 700;
 }
 .textWelcome {
   line-height: 150%;
   font-weight: 700;
-  color: azure;
 }
 .allResultAbout {
   display: grid;
@@ -26,7 +24,6 @@
 .textJust {
   line-height: 150%;
   font-weight: 600;
-  color: azure;
 }
 .resultsAbout {
   line-height: 265%;
@@ -35,11 +32,9 @@
 .resultsAbout h3 {
   font-size: 40px;
   font-weight: 900;
-  color: black;
 }
 .resultsAbout p {
   font-weight: 600;
-  color: azure;
 }
 .buttonJoin {
   display: inline-flex;
@@ -48,7 +43,7 @@
   line-height: 150%;
   min-height: 48px;
   font-size: 20px;
-  border: 2px solid black;
+  border: 2px solid #eda02d;
   border-radius: 40px;
   padding: 5px 36px;
   color: azure;
@@ -56,5 +51,5 @@
   transition: all 0.3s;
 }
 .buttonUs:hover {
-  background: black;
+  background: #eda02d;
 }

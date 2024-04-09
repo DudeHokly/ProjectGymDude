@@ -1,6 +1,12 @@
 .OurServices {
   padding: 130px 0 365px;
-  background-color: black;
+  /* background-color: #eda02d; */
+  background: rgb(193, 164, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 164, 35, 1) 0%,
+    rgba(237, 160, 45, 1) 100%
+  );
 }
 .ServicesConteiner {
 }
@@ -13,7 +19,7 @@
   font-size: 150px;
 }
 .row {
-  color: azure;
+  color: black;
 }
 .textServicess1 {
   font-weight: 600;
@@ -27,12 +33,12 @@
   line-height: 170%;
 }
 ._services_left_icon {
-  color: azure;
+  color: black;
   position: absolute;
   left: 0;
 }
 ._services_right_icon {
-  color: azure;
+  color: black;
   position: absolute;
   right: 0;
 }

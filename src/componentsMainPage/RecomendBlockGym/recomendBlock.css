@@ -1,15 +1,23 @@
 .recomendBlockGym {
   padding-top: 65px;
-  background-color: #ececec;
+  /* background-color: #33302c; */
+  background-color: black;
   padding-bottom: 75px;
 }
 .textRecomend {
-  color: black;
+  color: #eda02d;
   font-size: 31px;
 }
 .textRecomend2 {
+  color: #eda02d;
   font-size: 41px;
   font-weight: 800;
+}
+.colorIcon {
+  color: #eda02d;
+}
+.colorMore {
+  color: #eda02d;
 }
 .kartochkiAnimated {
   display: grid;
@@ -24,7 +32,7 @@
 .Kartochka {
   padding: 55px 40px;
   text-align: center;
-  background-color: #fff;
+  background-color: white;
 }
 .Kartochka:hover {
 }

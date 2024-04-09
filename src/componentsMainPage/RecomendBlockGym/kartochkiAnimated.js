@@ -11,7 +11,9 @@ function Kartochka({ elem }) {
       <div className="icon">{elem.icon}</div>
       <h2 className="ZagolovKartoch">{elem.title}</h2>
       <p className="textCard">{elem.text}</p>
-      <a href={elem.link}>Узнать больше</a>
+      <a className="colorMore" href={elem.link}>
+        Узнать больше
+      </a>
     </div>
   );
 }

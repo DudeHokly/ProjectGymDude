@@ -67,8 +67,8 @@ function MainPage() {
         <meta name="viewport" content="width=device-width" />
       </Helmet>
       <Header />
-      <RecomendBlock />
       <AboutUS />
+      <RecomendBlock />
       <Services />
       <KartochkiTreners />
       <TeamGroup />
