@@ -12,27 +12,23 @@
   line-height: 265%;
 }
 .row h1 {
-  margin: 0 0 20px;
+  color: azure;
+  margin: 0 0 40px;
   font-size: 58px;
   font-weight: 700;
 }
 .bannerSectionContentBtn {
   margin: 0 auto;
-  padding: 0;
   width: 300px;
-  border: 2px solid black;
+  border: 2px solid #eda02d;
+  color: azure;
   border-radius: 40px;
+  padding: 11px 29px;
 }
 .bannerSectionContentBtn:hover {
+  background-color: #eda02d;
   transition: all 0.3s;
-  background: rgb(103, 103, 103);
 }
 .bannerSectionContentBtn span {
   padding: 11px;
-}
-.spn_Home {
-  color: azure;
-}
-.spn_Join {
-  color: rgb(255, 0, 0);
 }

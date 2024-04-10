@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: sans-serif;
+  font-family: "Carlito", sans-serif;
   box-sizing: border-box;
 }
 body {
@@ -36,7 +36,7 @@ header {
   width: 100%;
   height: 100%;
   line-height: 1;
-  font-size: 16px;
+  font-size: 17px;
   color: azure;
   padding-top: 1px;
 }

@@ -2,6 +2,10 @@
   background-color: white;
   padding: 0 0 115px;
 }
+.rowTimetable {
+  padding: 55px 0 27px;
+  text-align: center;
+}
 .ScheduleText1 {
   color: #eda02d;
   margin: 0 0 12px;
@@ -9,27 +13,36 @@
   font-weight: 600;
 }
 .ScheduleText2 {
-  color: ;
+  color: #eda02d;
   margin: 0 0 25px;
   font-size: 40px;
   font-weight: 700;
 }
 .ScheduleTable {
-  border: 1px solid rgb(113, 113, 113);
+  border: 1px solid rgb(142, 142, 142);
   text-align: center;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  font-size: 14px;
 }
 .tableUpBlackBlock {
-  border: 1px solid rgb(113, 113, 113);
+  border: 1px solid rgb(142, 142, 142);
+  padding: 17px;
   color: azure;
   background-color: black;
 }
 .tableTimeBlock {
-  border: 1px solid rgb(113, 113, 113);
-  background-color: #eda02d;
+  border: 1px solid rgb(142, 142, 142);
+  padding-top: 30px;
+  background: rgb(193, 164, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 164, 35, 1) 0%,
+    rgba(237, 160, 45, 1) 100%
+  );
 }
 .tableScheduleBlockWhite {
+  border: 1px solid rgb(142, 142, 142);
+  padding: 20px;
   background-color: white;
-  border: 1px solid rgb(113, 113, 113);
 }

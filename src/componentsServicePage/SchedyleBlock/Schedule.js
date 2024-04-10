@@ -86,7 +86,7 @@ export default function Schedule() {
   return (
     <section className="ScheduleSection">
       <div className="content _conteiner">
-        <div className="row">
+        <div className="rowTimetable">
           <h5 className="ScheduleText1">Наш график работы</h5>
           <h2 className="ScheduleText2">
             Ниже можете ознакомиться с нашими мероприятиями

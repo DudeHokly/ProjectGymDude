@@ -1,4 +1,5 @@
 import "./HeaderPricePage.css";
+import { Link } from "react-router-dom";
 import HeaderNav from "../../componentsMainPage/header/headerNav";
 
 export default function HeaderPrice() {
@@ -9,15 +10,9 @@ export default function HeaderPrice() {
         <div className="content _conteiner">
           <div className="row">
             <h1>Тарифный План</h1>
-            <div className="bannerSectionContentBtn">
-              <a href="#">
-                <span className="spn_Home">Главная</span>
-              </a>
-              -
-              <a href="#">
-                <span className="spn_Join">Присоединиться</span>
-              </a>
-            </div>
+            <Link to="/" className="bannerSectionContentBtn">
+              <span>Главная</span>-<span>Присоединиться</span>
+            </Link>
           </div>
         </div>
       </section>

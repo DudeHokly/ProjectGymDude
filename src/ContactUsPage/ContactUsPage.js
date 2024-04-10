@@ -1,4 +1,5 @@
-import "./ContactUsPage.css"
+import "./ContactUsPage.css";
+import { Link } from "react-router-dom";
 import HeaderNav from "../componentsMainPage/header/headerNav";
 
 export default function ContactUs() {
@@ -9,18 +10,12 @@ export default function ContactUs() {
         <div className="content _conteiner">
           <div className="row">
             <h1>Связаться с Нами</h1>
-            <div className="bannerSectionContentBtn">
-              <a href="#">
-                <span className="spn_Home">Главная</span>
-              </a>
-              -
-              <a href="#">
-                <span className="spn_Join">Присоединиться</span>
-              </a>
-            </div>
+            <Link to="/" className="bannerSectionContentBtn">
+              <span>Главная</span>-<span>Присоединиться</span>
+            </Link>
           </div>
         </div>
       </section>
     </header>
-  )
+  );
 }

@@ -11,19 +11,19 @@ const cards = [
   },
   {
     icon: <i className="icon-blind colorIcon"></i>,
-    title: "BIG WEIGHT LIFTING",
+    title: "BIG LIFTING",
     text: "Поднимай большие веса и становись большим, потому что ты можешь ты можешь все",
     link: "#",
   },
   {
     icon: <i className="icon-person colorIcon"></i>,
-    title: "POWERFUL VITAMINS",
+    title: "VITAMINS",
     text: "Ешь много витаминов и не забывай покупать наши витамины, почему потому что ты можешь ты можешь все",
     link: "#",
   },
   {
     icon: <i className="icon-blind-1 colorIcon"></i>,
-    title: "JUST PUMPING",
+    title: "PUMPING",
     text: "Просто качай железо, чтобы оно не качало тебя",
     link: "#",
   },

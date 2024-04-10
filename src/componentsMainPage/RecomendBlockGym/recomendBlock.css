@@ -1,6 +1,5 @@
 .recomendBlockGym {
   padding-top: 65px;
-  /* background-color: #33302c; */
   background-color: black;
   padding-bottom: 75px;
 }
@@ -10,13 +9,14 @@
 }
 .textRecomend2 {
   color: #eda02d;
-  font-size: 41px;
+  font-size: 48px;
   font-weight: 800;
 }
 .colorIcon {
   color: #eda02d;
 }
 .colorMore {
+  margin-top: auto;
   color: #eda02d;
 }
 .kartochkiAnimated {
@@ -25,20 +25,22 @@
   gap: 30px;
 }
 .rowRecomend {
-  min-height: 138px;
-  line-height: 350%;
+  padding-bottom: 45px;
+  line-height: 319%;
   text-align: center;
 }
 .Kartochka {
+  width: 262px;
+  display: flex;
+  flex-direction: column;
   padding: 55px 40px;
   text-align: center;
+  height: 100%;
   background-color: white;
 }
-.Kartochka:hover {
-}
 .ZagolovKartoch {
-  padding: 5px 25px;
-  font-size: 26px;
+  padding: 14px 10px;
+  font-size: 29px;
 }
 .textCard {
   padding: 5px 10px;
