@@ -1,4 +1,9 @@
 .DudesAreTreners {
   padding: 90px 0 180px;
-  background-color: #eda02d;
+  background: rgb(193, 164, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 164, 35, 1) 0%,
+    rgba(237, 160, 45, 1) 100%
+  );
 }
