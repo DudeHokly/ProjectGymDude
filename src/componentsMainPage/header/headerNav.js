@@ -47,20 +47,32 @@ export default function HeaderNav() {
             </li>
 
             <li className="iconNav">
-              <Link to="/" className="defolt">
+              <Link to="/" className="defolt iconAutoriz">
                 <i className="icon-user iconSing"></i>
               </Link>
               <ul className="iconSingIn">
                 <li>
                   <Link to="/" className="defoltIcon">
                     {" "}
-                    Авторизоваться{" "}
+                    Авторизация{" "}
                   </Link>
                 </li>
                 <li>
                   <Link to="/" className="defoltIcon">
                     {" "}
-                    Зарегестрироватсья{" "}
+                    Регистрация{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/" className="defoltIcon">
+                    {" "}
+                    Помощь{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/TestPage" className="defoltIcon">
+                    {" "}
+                    Тестовая{" "}
                   </Link>
                 </li>
               </ul>

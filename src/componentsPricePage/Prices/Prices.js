@@ -1,9 +1,11 @@
+import PriceCards from "./PricesCards";
 import "./Prices.css";
 import "../../icons/css/fontello.css";
 
-const PriceCards = [
+const CardsPrices = [
   {
-    SamplePhoto: <i className="icon-accessibility"></i>,
+    SamplePhoto: <div className="photoPrices"></div>,
+    price: ((<span>45$</span>), (<span>Месячно</span>)),
     title: "Стандартная треня",
     desc1: "Безлемитный клубный пропуск",
     desc2: "Можно посещать с друзьями",
@@ -37,6 +39,7 @@ export default function Prices() {
             </figure>
           </div>
         </div>
+        <PriceCards cards={CardsPrices} />
       </div>
     </section>
   );

@@ -3,3 +3,8 @@
   font-size: 45px;
   padding: 5px 0 10px;
 }
+.photoPrices {
+  background-image: url(../../images/GigaChad.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

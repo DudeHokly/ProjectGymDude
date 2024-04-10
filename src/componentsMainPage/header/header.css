@@ -111,7 +111,7 @@ header {
   display: inline-flex;
 }
 .disapearLink Link {
-  transition: all 0.3s;
+  transition: all 0.6s;
   color: azure;
 }
 .krug2 {
@@ -125,6 +125,7 @@ header {
   padding: 5px 36px;
 }
 .krug2:hover {
+  transition: all 0.6s;
   background: #eda02d;
 }
 .iconSing {
@@ -134,6 +135,7 @@ header {
   font-size: 22px;
 }
 .iconSing:hover {
+  transition: all 0.3s;
   background: white;
 }
 .iconSingIn {
@@ -142,11 +144,16 @@ header {
   display: none;
   color: #eda02d;
 }
+.iconAutoriz {
+  padding: 0 10px 0;
+}
 .iconSingIn:hover {
-  border-radius: 5px;
+  transition: all 0.6s;
+  border-radius: 12px;
   background-color: #eda02d;
 }
 .iconNav:hover > ul {
+  transition: all 0.6s;
   display: initial;
 }
 .defoltIcon:hover {
