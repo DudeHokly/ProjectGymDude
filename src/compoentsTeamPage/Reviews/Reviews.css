@@ -1,0 +1,49 @@
+.ReviewsSection {
+  color: azure;
+  background-image: url(../../images/reviews.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ReviewsContent {
+  padding: 160px 500px 145px 0;
+}
+.rowReviews h4 {
+  color: #eda02d;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.rowReviews h2 {
+  margin: 0 0 25px;
+  font-size: 55px;
+}
+.TextReviews p {
+  font-size: 22.5px;
+  line-height: 141%;
+  padding-bottom: 26px;
+}
+.Client {
+  line-height: 195%;
+}
+.Client h6 {
+  font-size: 22px;
+}
+.Client p {
+  font-size: 16px;
+}
+.pointerMain {
+  display: flex;
+  gap: 14px;
+}
+.btnRev {
+  color: azure;
+  border: 1px solid #eda02d;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 35px;
+}
+.btnRev:hover {
+  transition: all 0.3s;
+  background-color: #eda02d;
+}

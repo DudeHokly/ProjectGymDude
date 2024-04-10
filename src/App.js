@@ -15,6 +15,7 @@ import Schedule from "./componentsServicePage/SchedyleBlock/Schedule.js";
 
 import HeaderTeamPage from "./compoentsTeamPage/HeaderTeamPage/HeaderTeamPage.js";
 import TeamPageDudes from "./compoentsTeamPage/TeamPageTreners/TeamPageTreners.js";
+import ReviewsPage from "./compoentsTeamPage/Reviews/Reviews.js";
 
 import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
@@ -105,7 +106,7 @@ function TeamTreners() {
     <div className="TeamPage">
       <HeaderTeamPage />
       <TeamPageDudes />
-
+      <ReviewsPage />
       <Footer />
     </div>
   );
