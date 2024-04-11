@@ -4,7 +4,21 @@
   padding: 5px 0 10px;
 }
 .photoPrices {
-  background-image: url(../../images/GigaChad.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.PricesCardsBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.BoxCard {
+  width: 262px;
+  text-align: center;
+  color: azure;
+  background-color: black;
+}
+.PhotoTrenerPrices {
+  height: 100%;
+  width: 100%;
 }

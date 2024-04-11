@@ -1,11 +1,13 @@
 import PriceCards from "./PricesCards";
 import "./Prices.css";
 import "../../icons/css/fontello.css";
+import cuteTrenerGirl from "../../images/Trener6.jpeg";
 
 const CardsPrices = [
   {
-    SamplePhoto: <div className="photoPrices"></div>,
-    price: ((<span>45$</span>), (<span>Месячно</span>)),
+    SamplePhoto: cuteTrenerGirl,
+    price: "45$",
+    period: "Месячно",
     title: "Стандартная треня",
     desc1: "Безлемитный клубный пропуск",
     desc2: "Можно посещать с друзьями",
@@ -13,6 +15,8 @@ const CardsPrices = [
     desc4: "Посещать сауну",
     desc5: "Посещать боеввые искуства",
   },
+  
+
 ];
 
 export default function Prices() {

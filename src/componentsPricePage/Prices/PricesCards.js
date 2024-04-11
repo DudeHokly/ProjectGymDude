@@ -4,28 +4,29 @@ export default function PriceCards({ cards }) {
   const CardPriceJsx = cards.map((elem, i) => {
     return <KartaPrice elem={elem} />;
   });
-  return <div className="kartochkiAnimated">{CardPriceJsx}</div>;
+  return <div className="PricesCardsBlock">{CardPriceJsx}</div>;
 }
 
 function KartaPrice({ elem }) {
   return (
     <div className="BoxCard">
-      <figure className="photoPrices">{elem.SamplePhoto}</figure>
+      <figure className="photoPrices">
+        <img className="PhotoTrenerPrices" src={elem.SamplePhoto} />
+      </figure>
       <div className="priceMonth">
-        <span>{elem.price}</span>
-        <span>{elem.price}</span>
+        <span className="circle__price">{elem.price}</span>
+        <span className="circle__price">{elem.period}</span>
       </div>
-      <h5>{elem.title}</h5>
+      <h5 className="titlePrice">{elem.title}</h5>
       <ul className="descPriceCard">
-        <li>{elem.desc1}</li>
-        <li>{elem.desc2}</li>
-        <li>{elem.desc3}</li>
-        <li>{elem.desc4}</li>
-        <li>{elem.desc5}а</li>
+        <li className="descPrice">{elem.desc1}</li>
+        <li className="descPrice">{elem.desc2}</li>
+        <li className="descPrice">{elem.desc3}</li>
+        <li className="descPrice">{elem.desc4}</li>
+        <li className="descPrice">{elem.desc5}</li>
       </ul>
       <Link to="/Pricing" className="defolt">
-        {" "}
-        Присоединиться{" "}
+        Присоединиться
       </Link>
     </div>
   );
