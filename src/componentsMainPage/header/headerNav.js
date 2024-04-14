@@ -35,10 +35,6 @@ export default function HeaderNav() {
                 Цены{" "}
               </Link>
             </li>
-
-            {/* <li>
-              <Link to="/TestPage"> TestPage </Link>
-            </li> */}
             <li>
               <Link to="/ContactUs" className="krug">
                 {" "}
@@ -52,7 +48,7 @@ export default function HeaderNav() {
               </Link>
               <ul className="iconSingIn">
                 <li>
-                  <Link to="/" className="defoltIcon">
+                  <Link to="/Authorization" className="defoltIcon">
                     {" "}
                     Авторизация{" "}
                   </Link>
