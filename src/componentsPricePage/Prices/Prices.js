@@ -1,11 +1,13 @@
 import PriceCards from "./PricesCards";
 import "./Prices.css";
 import "../../icons/css/fontello.css";
-import cuteTrenerGirl from "../../images/Trener6.jpeg";
+import DudeTrener from "../../images/prices1.png";
+import DudeTrener2 from "../../images/prices2.png";
+import DudeTrener3 from "../../images/prices3.png";
 
 const CardsPrices = [
   {
-    SamplePhoto: cuteTrenerGirl,
+    SamplePhoto: DudeTrener,
     price: "45$",
     period: "Месячно",
     title: "Стандартная треня",
@@ -15,8 +17,94 @@ const CardsPrices = [
     desc4: "Посещать сауну",
     desc5: "Посещать боеввые искуства",
   },
-  
-
+  {
+    SamplePhoto: DudeTrener2,
+    price: "50$",
+    period: "Месячно",
+    title: "Платиновая треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener3,
+    price: "60$",
+    period: "Месячно",
+    title: "Золотая треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
+  {
+    SamplePhoto: DudeTrener,
+    price: "45$",
+    period: "Месячно",
+    title: "Стандартная треня",
+    desc1: "Безлемитный клубный пропуск",
+    desc2: "Можно посещать с друзьями",
+    desc3: "Посещение спортзала",
+    desc4: "Посещать сауну",
+    desc5: "Посещать боеввые искуства",
+  },
 ];
 
 export default function Prices() {
