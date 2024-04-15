@@ -1,23 +1,23 @@
 import "./OurTeam.css";
 import Trenner1 from "../../images/Trener1.jpg";
 import Trenner2 from "../../images/Trener2.jpg";
-import Trenner3 from "../../images/Trener3.jpeg";
+import Trenner3 from "../../images/Trener3.jpg";
 import "../../icons/css/fontello.css";
 
 const cardOfTrenners = [
   {
     Trenera: Trenner1,
-    nameTrener: "Sakura Hibiki",
+    nameTrener: "Королев Степан Фёдорович",
     textTeam1: <p className="textTeam">Кроссфит</p>,
   },
   {
     Trenera: Trenner2,
-    nameTrener: "Uehara Ayaka",
+    nameTrener: "Емельянов Иван Михайлович",
     textTeam1: <p className="textTeam">Бокс</p>,
   },
   {
     Trenera: Trenner3,
-    nameTrener: "Machio Naruzo",
+    nameTrener: "Журавлев Демид Ильич",
     textTeam1: <p className="textTeam">Поуэрлифтинг</p>,
   },
 ];

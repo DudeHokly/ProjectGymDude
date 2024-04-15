@@ -19,7 +19,7 @@ import ReviewsPage from "./compoentsTeamPage/Reviews/Reviews.js";
 
 import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
-import AuthorizationGestPage from "./AuthorizationGestPage/AuthorizationGestPage.js";
+import SimpleRegistrationForm from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
 import Prices from "./componentsPricePage/Prices/Prices.js";
 
@@ -51,7 +51,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Authorization",
-    element: <AuthorizationPage />,
+    element: <SimpleRegistration />,
   },
   {
     path: "/ContactUs",
@@ -121,10 +121,10 @@ function PricingPage() {
     </div>
   );
 }
-function AuthorizationPage() {
+function SimpleRegistration() {
   return (
     <div className="Authoriz">
-      <AuthorizationGestPage />
+      <SimpleRegistrationForm />
     </div>
   );
 }

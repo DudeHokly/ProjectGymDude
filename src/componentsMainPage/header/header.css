@@ -123,9 +123,9 @@ header {
   justify-content: center;
   border-radius: 40px;
   padding: 5px 36px;
+  transition: all 0.6s;
 }
 .krug2:hover {
-  transition: all 0.6s;
   background: #eda02d;
 }
 .iconSing {

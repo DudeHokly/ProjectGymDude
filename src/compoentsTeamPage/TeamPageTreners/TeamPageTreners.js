@@ -2,33 +2,33 @@ import "./TeamPageTreners.css";
 import "../../icons/css/fontello.css";
 import Trenner1 from "../../images/Trener1.jpg";
 import Trenner2 from "../../images/Trener2.jpg";
-import Trenner3 from "../../images/Trener3.jpeg";
+import Trenner3 from "../../images/Trener3.jpg";
 import Trenner4 from "../../images/Trener4.jpg";
 import Trenner5 from "../../images/Trener5.jpg";
-import Trenner6 from "../../images/Trener6.jpeg";
+import Trenner6 from "../../images/Trener6.jpg";
 import Trenner7 from "../../images/Trener7.jpg";
-import Trenner8 from "../../images/Trener8.png";
+import Trenner8 from "../../images/Trener8.jpg";
 import Trenner9 from "../../images/Trener9.jpg";
 
 const cardOfTrenners = [
   {
     Trenera: Trenner1,
-    nameTrener: "Sakura Hibiki",
+    nameTrener: "Королев Степан Фёдорович",
     textTeam1: <p className="textTeam">Кроссфит</p>,
   },
   {
     Trenera: Trenner2,
-    nameTrener: "Uehara Ayaka",
+    nameTrener: "Емельянов Иван Михайлович",
     textTeam1: <p className="textTeam">Бокс</p>,
   },
   {
     Trenera: Trenner3,
-    nameTrener: "Machio Naruzo",
+    nameTrener: "Журавлев Демид Ильич",
     textTeam1: <p className="textTeam">Поуэрлифтинг</p>,
   },
   {
     Trenera: Trenner4,
-    nameTrener: "Tachibana Satomi",
+    nameTrener: "Гуляев Тимофей Алексеевич",
     textTeam1: <p className="textTeam">Кардио Нагрузки</p>,
   },
   {
@@ -38,22 +38,22 @@ const cardOfTrenners = [
   },
   {
     Trenera: Trenner6,
-    nameTrener: "Gina Boyd",
+    nameTrener: "Яковлев Иван Платонович",
     textTeam1: <p className="textTeam">Специалист по гантелям</p>,
   },
   {
     Trenera: Trenner7,
-    nameTrener: "Soryuin Akemi",
+    nameTrener: "Горбачев Виктор Ильич",
     textTeam1: <p className="textTeam">Фитнес-тренер</p>,
   },
   {
     Trenera: Trenner8,
-    nameTrener: "Barnold Shortsinator",
+    nameTrener: "Степанов Матвей Тимофеевич",
     textTeam1: <p className="textTeam">Спортивный судья</p>,
   },
   {
     Trenera: Trenner9,
-    nameTrener: "Kure Yakusha",
+    nameTrener: "Мельников Семён Александрович",
     textTeam1: <p className="textTeam">Инструктор по фитнесу</p>,
   },
 ];
