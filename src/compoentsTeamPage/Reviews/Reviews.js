@@ -25,7 +25,7 @@ export default function ReviewsPage() {
             </div>
           </div>
           <div className="pointerMain">
-            <div className="poin ter">
+            <div className="pointer">
               <Link to="/TeamPage" className="btnRev">
                 ←
               </Link>

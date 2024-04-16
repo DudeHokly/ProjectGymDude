@@ -1,8 +1,9 @@
+import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
 import "./Schedule.css";
 import "../../icons/css/fontello.css";
 
 const days = [
-  "Logo",
+  <SportsBasketballIcon />,
   "Суббота",
   "Понедельник",
   "Вторник",

@@ -42,9 +42,15 @@
   padding: 14px 10px;
   font-size: 29px;
 }
+.iconRecomend {
+  font-size: 60px;
+}
 .textCard {
   padding: 5px 10px;
 }
-.icon i {
-  font-size: 60px;
+.pointerMainRec {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 25px;
 }

@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
 
 export default function HeaderNav() {
   return (
     <div className="menu _conteiner">
       <figure className="logo">
         <Link to="/">
-          <i className="icon-wheelchair"></i>
+          <i className="logoMainPage">
+            <SportsBasketballIcon fontSize="100px" />
+          </i>
         </Link>
       </figure>
       <div className="menu_blocks">

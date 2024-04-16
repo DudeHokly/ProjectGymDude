@@ -1,5 +1,5 @@
 import "./footer.css";
-import logo from "../../images/logo_gym.png";
+import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
 import "../../icons/css/fontello.css";
 
 export default function Footer() {
@@ -21,7 +21,9 @@ export default function Footer() {
             <div className="aboutCard padAbout1">
               <figure className="logo">
                 <a href="#">
-                  <i className="icon-wheelchair"></i>
+                  <i className="logoFooterPage">
+                    <SportsBasketballIcon fontSize="120px" color="white" />
+                  </i>
                 </a>
               </figure>
               <p>Какой то текст пока не </p>

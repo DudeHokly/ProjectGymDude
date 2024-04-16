@@ -14,6 +14,11 @@
 .padding_card {
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 15px;
+  transition: all 0.3s;
+}
+.padding_card:hover {
+  opacity: 0.8 !important;
 }
 .card_tren {
   background-image: url(../../images/personalTrainer.png);
@@ -28,7 +33,6 @@
   background-image: url(../../images/BoxFight.png);
 }
 .facilities_content {
-  /*Как то исправить пэддинг карточки*/
   padding: 250px 0 40px 50px;
   line-height: 170%;
   left: 40px;
@@ -52,7 +56,26 @@
   font-size: 18px;
   font-weight: 500;
 }
-
-.KnowMoreBtn {
+.btn_join {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.btn_more a {
+  color: #eda02d;
+}
+.KnowMoreBtnJoin {
   text-decoration: none;
+  line-height: 150%;
+  min-height: 48px;
+  font-size: 20px;
+  border: 2px solid #eda02d;
+  border-radius: 40px;
+  padding: 7px 46px;
+  color: azure;
+  background: transparent;
+  transition: all 0.3s;
+}
+.KnowMoreBtnJoin:hover {
+  background: #eda02d;
 }

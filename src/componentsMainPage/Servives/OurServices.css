@@ -32,9 +32,11 @@
   line-height: 170%;
 }
 ._services_left_icon {
-  color: black;
   position: absolute;
   left: 0;
+}
+.iconBall {
+  color: black;
 }
 ._services_right_icon {
   color: black;

@@ -1,5 +1,7 @@
 import "./aboutUs.css";
 
+// const counterNumbers =
+
 export default function AboutUS() {
   return (
     <section className="aboutUS">

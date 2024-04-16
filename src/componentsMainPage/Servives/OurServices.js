@@ -7,7 +7,7 @@ export default function Services() {
       <div className="ServicesConteiner _conteiner">
         <div className="ServicesContent">
           <div className="_placeIcon">
-            <figure className="_services_left_icon">
+            <figure className="_services_left_icon iconBall">
               <i className="icon-dribbble"></i>
             </figure>
           </div>
@@ -21,7 +21,7 @@ export default function Services() {
           </div>
           <div className="_placeIcon">
             <figure className="_services_right_icon">
-              <i className="icon-dribbble"></i>
+              <i className="icon-dribbble iconBall"></i>
             </figure>
           </div>
         </div>

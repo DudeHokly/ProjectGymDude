@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-export default function AutorizPage() {
+export default function SimpleAutorizationForm() {
   return (
     <Card color="transparent" shadow={false}>
       <section className="allCard ">

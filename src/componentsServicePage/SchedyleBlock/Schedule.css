@@ -30,6 +30,7 @@
   padding: 17px;
   color: azure;
   background-color: black;
+  font-size: 17px;
 }
 .tableTimeBlock {
   border: 1px solid rgb(142, 142, 142);
@@ -40,9 +41,18 @@
     rgba(193, 164, 35, 1) 0%,
     rgba(237, 160, 45, 1) 100%
   );
+  font-size: 17px;
 }
 .tableScheduleBlockWhite {
   border: 1px solid rgb(142, 142, 142);
   padding: 20px;
   background-color: white;
+}
+.tableScheduleBlockWhite:hover {
+  background: rgb(193, 164, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 164, 35, 1) 0%,
+    rgba(237, 160, 45, 1) 100%
+  );
 }

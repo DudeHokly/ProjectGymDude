@@ -24,7 +24,7 @@ import Prices from "./componentsPricePage/Prices/Prices.js";
 import ContactUs from "./ContactUsPage/ContactUsPage.js";
 
 import SimpleRegistrationForm from "./RegistrationGestPage/RegistrationGestPage.js";
-import AutorizPage from "./AuthorizationGestPage/AuthorizationGestPage.js";
+import SimpleAutorizationForm from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
 import TestPage from "./testPage/testPage.js";
 
@@ -43,10 +43,6 @@ const router = createBrowserRouter([
     element: <TeamTreners />,
   },
   {
-    path: "/TestPage",
-    element: <Test />,
-  },
-  {
     path: "/Pricing",
     element: <PricingPage />,
   },
@@ -60,7 +56,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/Authorization ",
-    element: <SimpleAutoriz />,
+    element: <SimpleAutorization />,
+  },
+  {
+    path: "/TestPage",
+    element: <Test />,
   },
 ]);
 
@@ -140,10 +140,10 @@ function SimpleRegistration() {
     </div>
   );
 }
-function SimpleAutoriz() {
+function SimpleAutorization() {
   return (
     <div className="Authoriz">
-      <AutorizPage />
+      <SimpleAutorizationForm />
     </div>
   );
 }

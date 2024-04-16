@@ -66,13 +66,11 @@
 }
 .logo i {
   color: white;
-  font-size: 90px;
+  font-size: 120px;
 }
 .BottomCopiright {
   border-top: 1px solid white;
   text-align: center;
-}
-.margCopiraight {
 }
 .footIcons {
   display: flex;
@@ -83,6 +81,12 @@
 .footIcons i {
   color: #eda02d;
   font-size: 24px;
+  transition: all 0.5s;
+}
+.footIcons i:hover {
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
 }
 .aboutCard h6 {
   color: white;
