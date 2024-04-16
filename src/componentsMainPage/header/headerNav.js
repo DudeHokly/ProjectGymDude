@@ -54,7 +54,7 @@ export default function HeaderNav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="defoltIcon">
+                  <Link to="/Registration" className="defoltIcon">
                     {" "}
                     Регистрация{" "}
                   </Link>

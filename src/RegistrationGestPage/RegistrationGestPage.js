@@ -1,4 +1,4 @@
-import "./AuthorizationGestPage.css";
+import "./RegistrationGestPage.css";
 import { Link } from "react-router-dom";
 import {
   Card,
@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-export default function AutorizPage() {
+export default function SimpleRegistrationForm() {
   return (
     <Card color="transparent" shadow={false}>
       <section className="allCard ">

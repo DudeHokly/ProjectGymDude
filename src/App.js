@@ -19,11 +19,12 @@ import ReviewsPage from "./compoentsTeamPage/Reviews/Reviews.js";
 
 import HeaderPrice from "./componentsPricePage/HeaderPricePage/HeaderPricePage.js";
 
-import SimpleRegistrationForm from "./AuthorizationGestPage/AuthorizationGestPage.js";
-
 import Prices from "./componentsPricePage/Prices/Prices.js";
 
 import ContactUs from "./ContactUsPage/ContactUsPage.js";
+
+import SimpleRegistrationForm from "./RegistrationGestPage/RegistrationGestPage.js";
+import AutorizPage from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
 import TestPage from "./testPage/testPage.js";
 
@@ -50,12 +51,16 @@ const router = createBrowserRouter([
     element: <PricingPage />,
   },
   {
-    path: "/Authorization",
+    path: "/ContactUs",
+    element: <ContactUsPage />,
+  },
+  {
+    path: "/Registration",
     element: <SimpleRegistration />,
   },
   {
-    path: "/ContactUs",
-    element: <ContactUsPage />,
+    path: "/Authorization ",
+    element: <SimpleAutoriz />,
   },
 ]);
 
@@ -121,17 +126,24 @@ function PricingPage() {
     </div>
   );
 }
-function SimpleRegistration() {
-  return (
-    <div className="Authoriz">
-      <SimpleRegistrationForm />
-    </div>
-  );
-}
 function ContactUsPage() {
   return (
     <div className="Contact">
       <ContactUs />
+    </div>
+  );
+}
+function SimpleRegistration() {
+  return (
+    <div className="Registrations">
+      <SimpleRegistrationForm />
+    </div>
+  );
+}
+function SimpleAutoriz() {
+  return (
+    <div className="Authoriz">
+      <AutorizPage />
     </div>
   );
 }

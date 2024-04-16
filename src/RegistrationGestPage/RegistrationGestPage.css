@@ -1,0 +1,52 @@
+.Authoriz {
+  background-image: url(../images/SignUpPage.png);
+  background-size: cover;
+  background-position: center;
+}
+.allCard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.justForPadding {
+  background-color: white;
+  border: 1px solid #eda02d;
+  border-radius: 20px;
+}
+form {
+  border-radius: 20px;
+}
+.rowRegistr {
+  border-bottom: 2px solid #eda02d;
+  padding: 20px 0 20px 190px;
+}
+.mt-1 {
+  color: #eda02d;
+}
+.mt-2 {
+  color: black;
+}
+.mt-8 {
+  padding: 15px 190px 110px;
+}
+
+.mb-1 {
+  width: 355px;
+}
+form Input {
+  border: 1px solid #eda02d;
+}
+.mt-6 {
+  background: rgb(193, 164, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 164, 35, 1) 0%,
+    rgba(237, 160, 45, 1) 100%
+  );
+}
+.Checkbox {
+  background-color: #eda02d;
+}
