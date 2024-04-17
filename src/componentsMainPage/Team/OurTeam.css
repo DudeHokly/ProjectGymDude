@@ -24,6 +24,9 @@
 .boxKartochki {
   padding: 0 25px;
   transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .boxKartochki:hover {
   opacity: 0.75 !important;
@@ -35,7 +38,7 @@
   box-shadow: 0 0 15px;
 }
 .lowerTextKartochki {
-  margin: 0 0 0 -30px;
+  margin-top: auto;
   padding: 35px 30px;
 }
 .nameTrener {

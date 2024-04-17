@@ -74,11 +74,13 @@
 }
 .footIcons {
   display: flex;
+  position: absolute;
 }
 .footIcons li {
   margin: 0 10px 0 0;
 }
 .footIcons i {
+  display: flex;
   color: #eda02d;
   font-size: 24px;
   transition: all 0.5s;

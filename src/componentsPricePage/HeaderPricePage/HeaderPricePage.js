@@ -4,7 +4,7 @@ import HeaderNav from "../../componentsMainPage/header/headerNav";
 
 export default function HeaderPrice() {
   return (
-    <header className="HeaderTeamPage">
+    <header className="HeaderPricesPage">
       <HeaderNav />
       <section className="bannerSectionHeader">
         <div className="content _conteiner">
