@@ -83,7 +83,7 @@ export default function Prices() {
       <div className="ServicesConteiner _conteiner">
         <div className="ServicesContent">
           <div className="_placeIcon">
-            <figure className="_services_left_icon">
+            <figure className="_services_left_icon iconBall">
               <i className="icon-dribbble"></i>
             </figure>
           </div>
@@ -96,7 +96,7 @@ export default function Prices() {
             </div>
           </div>
           <div className="_placeIcon">
-            <figure className="_services_right_icon">
+            <figure className="_services_right_icon iconBall">
               <i className="icon-dribbble"></i>
             </figure>
           </div>

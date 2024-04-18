@@ -22,7 +22,7 @@ export default function SimpleRegistrationForm() {
             </Typography>
           </div>
 
-          <form className="mt-8 bg-white">
+          <form className="mt-8 bg-white" id="register-form">
             <div className="mb-1 flex flex-col gap-6">
               <Typography variant="h6" color="blue-gray" className="-mb-3">
                 Ваше Имя

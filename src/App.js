@@ -55,7 +55,7 @@ const router = createBrowserRouter([
     element: <SimpleRegistration />,
   },
   {
-    path: "/Authorization ",
+    path: "/Authorization",
     element: <SimpleAutorization />,
   },
   {

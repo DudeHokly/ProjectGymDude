@@ -96,7 +96,7 @@ export default function TeamPageDudes() {
     <section className="DudesAreTreners">
       <div className="conteinerTeam _conteiner">
         <div className="_placeIcon">
-          <figure className="_services_right_icon">
+          <figure className="_services_right_icon iconBall">
             <i className="icon-dribbble"></i>
           </figure>
         </div>
@@ -106,7 +106,7 @@ export default function TeamPageDudes() {
 
         <div className="teamTrenners">{generCards}</div>
         <div className="_placeIcon">
-          <figure className="_services_left_icon">
+          <figure className="_services_left_icon iconBall">
             <i className="icon-dribbble"></i>
           </figure>
         </div>

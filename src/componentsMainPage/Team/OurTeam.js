@@ -60,7 +60,7 @@ export default function TeamGroup() {
     <section className="teamGroup ">
       <div className="conteinerTeam _conteiner">
         <div className="_placeIcon">
-          <figure className="_services_right_icon">
+          <figure className="_services_right_icon iconBall">
             <i className="icon-dribbble"></i>
           </figure>
         </div>
@@ -70,7 +70,7 @@ export default function TeamGroup() {
 
         <div className="teamTrenners">{generCards}</div>
         <div className="_placeIcon">
-          <figure className="_services_left_icon">
+          <figure className="_services_left_icon iconBall">
             <i className="icon-dribbble"></i>
           </figure>
         </div>

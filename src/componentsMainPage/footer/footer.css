@@ -17,6 +17,7 @@
 .ball {
   color: #eda02d;
   font-size: 270px;
+  animation: prig 2s alternate infinite;
 }
 .footerLeft_icon {
   position: absolute;
@@ -48,7 +49,6 @@
   justify-content: space-between;
   height: 100%;
 }
-
 .aboutCard li {
 }
 .padAbout1 p {
@@ -100,4 +100,13 @@
 }
 .BottomCopiright {
   padding: 23px 0;
+}
+
+@keyframes prig {
+  0% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

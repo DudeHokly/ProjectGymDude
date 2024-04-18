@@ -7,9 +7,6 @@
     rgba(237, 160, 45, 1) 100%
   );
 }
-.ServicesConteiner {
-}
-
 .contentServices {
   min-height: 176px;
   text-align: center;
@@ -37,9 +34,21 @@
 }
 .iconBall {
   color: black;
+  animation: Ball 3s 1s infinite alternate;
 }
 ._services_right_icon {
   color: black;
   position: absolute;
   right: 0;
+}
+@keyframes Ball {
+  0% {
+    transform: translateY(0) rotateX(45deg);
+  }
+  10% {
+    transform: translateY(0) rotateX(0deg);
+  }
+  100% {
+    transform: translateY(-150px) rotateX(0deg);
+  }
 }

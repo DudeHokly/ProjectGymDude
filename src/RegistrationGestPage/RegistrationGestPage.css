@@ -5,6 +5,16 @@
   width: 100%;
   position: fixed;
 }
+.Registrations {
+  background-image: url(../images/SignUpPage.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+#register-form .inputRow {
+  border: 1px solid #eda02d;
+}
 .allCard {
   position: fixed;
   top: 50%;

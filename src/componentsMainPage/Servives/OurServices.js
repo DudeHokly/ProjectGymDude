@@ -20,8 +20,8 @@ export default function Services() {
             </div>
           </div>
           <div className="_placeIcon">
-            <figure className="_services_right_icon">
-              <i className="icon-dribbble iconBall"></i>
+            <figure className="_services_right_icon iconBall">
+              <i className="icon-dribbble"></i>
             </figure>
           </div>
         </div>
