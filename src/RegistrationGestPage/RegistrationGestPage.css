@@ -37,6 +37,7 @@ form {
 }
 .mt-1 {
   color: #eda02d;
+  font-family: "Carlito", sans-serif;
 }
 .mt-2 {
   color: black;
@@ -49,7 +50,10 @@ form {
   width: 355px;
 }
 form Input {
-  border: 1px solid #eda02d;
+  border: 1px solid #eda02d !important;
+}
+form Input:focus {
+  border-color: black !important;
 }
 .mt-6 {
   background: rgb(193, 164, 35);
@@ -58,7 +62,4 @@ form Input {
     rgba(193, 164, 35, 1) 0%,
     rgba(237, 160, 45, 1) 100%
   );
-}
-.Checkbox {
-  background-color: #eda02d;
 }

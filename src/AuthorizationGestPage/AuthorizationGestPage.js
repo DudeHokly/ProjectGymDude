@@ -11,42 +11,31 @@ import {
 export default function SimpleAutorizationForm() {
   return (
     <Card color="transparent" shadow={false}>
-      <section className="allCard ">
+      <section className="allCard">
         <div className="justForPadding">
           <div className="rowRegistr">
-            <Typography className="mt-1" variant="h4" color="blue-gray">
-              Регистрация
+            <Typography className="mt-1" variant="h4">
+              Авторизация
             </Typography>
             <Typography className="mt-2 font-normal">
-              Добро пожаловать зарегестрируйтесь пожалуйста
+              Добро пожаловать авторизуйтесь пожалуйста
             </Typography>
           </div>
 
           <form className="mt-8 bg-white">
             <div className="mb-1 flex flex-col gap-6">
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
-                Ваше Имя
+              <Typography variant="h6" className="-mb-3">
+                Ваш Логин
               </Typography>
               <Input
                 size="lg"
-                placeholder="Ваше имя"
+                placeholder="Ваше Логин"
                 className="inputRow"
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
               />
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
-                Ваш Email
-              </Typography>
-              <Input
-                size="lg"
-                placeholder="Ваш Email@mail.com"
-                className="inputRow"
-                labelProps={{
-                  className: "before:content-none after:content-none",
-                }}
-              />
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
+              <Typography variant="h6" className="-mb-3">
                 Пароль
               </Typography>
               <Input

@@ -24,7 +24,7 @@ export default function SimpleRegistrationForm() {
 
           <form className="mt-8 bg-white" id="register-form">
             <div className="mb-1 flex flex-col gap-6">
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
+              <Typography variant="h6" className="-mb-3">
                 Ваше Имя
               </Typography>
               <Input
@@ -35,7 +35,7 @@ export default function SimpleRegistrationForm() {
                   className: "before:content-none after:content-none",
                 }}
               />
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
+              <Typography variant="h6" className="-mb-3">
                 Ваш Email
               </Typography>
               <Input
@@ -46,7 +46,7 @@ export default function SimpleRegistrationForm() {
                   className: "before:content-none after:content-none",
                 }}
               />
-              <Typography variant="h6" color="blue-gray" className="-mb-3">
+              <Typography variant="h6" className="-mb-3">
                 Пароль
               </Typography>
               <Input
