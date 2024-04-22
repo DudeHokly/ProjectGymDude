@@ -26,8 +26,6 @@ import ContactUs from "./ContactUsPage/ContactUsPage.js";
 import SimpleRegistrationForm from "./RegistrationGestPage/RegistrationGestPage.js";
 import SimpleAutorizationForm from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
-import TestPage from "./testPage/testPage.js";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -57,10 +55,6 @@ const router = createBrowserRouter([
   {
     path: "/Authorization",
     element: <SimpleAutorization />,
-  },
-  {
-    path: "/TestPage",
-    element: <Test />,
   },
 ]);
 
@@ -144,14 +138,6 @@ function SimpleAutorization() {
   return (
     <div className="Authoriz">
       <SimpleAutorizationForm />
-    </div>
-  );
-}
-
-function Test() {
-  return (
-    <div className="test">
-      <TestPage />
     </div>
   );
 }

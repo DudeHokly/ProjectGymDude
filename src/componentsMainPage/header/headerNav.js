@@ -68,12 +68,6 @@ export default function HeaderNav() {
                     Помощь{" "}
                   </Link>
                 </li>
-                <li>
-                  <Link to="/TestPage" className="defoltIcon">
-                    {" "}
-                    Тестовая{" "}
-                  </Link>
-                </li>
               </ul>
             </li>
           </ul>

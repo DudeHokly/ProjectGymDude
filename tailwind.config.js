@@ -17,6 +17,10 @@ module.exports = withMT({
       fontFamily: {
         FontChange: ["Carlito", "serif"],
       },
+      backgroundImage: {
+        bgContactImgPhone: "url('/src/images/ooo.jpg')",
+        bgContactImgFull: "url('/src/images/GigaChad.png')",
+      },
     },
   },
   plugins: [],

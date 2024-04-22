@@ -4,10 +4,10 @@ import "./aboutUs.css";
 // py-[120px] pr-[90px] pl-[550px]
 export default function AboutUS() {
   return (
-    <section className="aboutUS Large:w-[100%] ExtraLarge:w-[100%]">
-      <div className="contentUs Large:w-[430px] _conteiner">
-        <div className="conteinerUs flex justify-end">
-          <div className="#">
+    <section className="aboutUS flex justify-end ExtraLarge:justify-center bg-bgContactImgPhone Medium:bg-bgContactImgFull pt-[125px] pb-[160px]">
+      <div className="contentUs Large:w-[430px] Large:max-w-full-[100%]  ExtraLarge:w-[1100px] w-full flex justify-end ">
+        <div className="conteinerUs w-[470px] Medium:shrink-0 p-2.5">
+          <div className="">
             <h2 className="textAbout">О нас</h2>
             <h1 className="textWelcome">ДОБРО ПОЖАЛОВАТЬ В XTREME FITNESS</h1>
             <p className="textJust">

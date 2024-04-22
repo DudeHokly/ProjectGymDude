@@ -1,13 +1,6 @@
-.aboutUS {
-  background-image: url(../../images/GigaChad.png);
-  background-position: center;
-  background-size: cover;
-  padding-top: 1px;
+.contentUs {
   color: white;
 }
-/* .conteinerUs {
-  padding: 120px 90px 120px 550px;
-} */
 .textAbout {
   font-size: 38px;
   line-height: 150%;
