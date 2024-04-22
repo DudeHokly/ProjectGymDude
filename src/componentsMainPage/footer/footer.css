@@ -17,6 +17,7 @@
 .ball {
   color: #eda02d;
   font-size: 270px;
+  line-height: 0;
   animation: prig 2s alternate infinite;
 }
 .footerLeft_icon {
@@ -104,9 +105,9 @@
 
 @keyframes prig {
   0% {
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(20px);
   }
 }

@@ -11,7 +11,9 @@ module.exports = withMT({
       Large: "992px",
       // => @media (min-width:992px)
       ExtraLarge: "1110px",
-      // => @media (min-width:992px)
+      // => @media (min-width:1110px)
+      CardsScreen: '1300px'
+      // => @media (min-width:1300px)
     },
     extend: {
       fontFamily: {

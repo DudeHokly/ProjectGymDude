@@ -67,8 +67,7 @@
 }
 .forCirclePricePage {
   margin: 0 auto;
-  width: 160px;
-  padding: 25px;
+  width: 140px;
   border-radius: 100%;
   background: rgb(193, 164, 35);
   background: linear-gradient(
@@ -76,6 +75,11 @@
     rgba(193, 164, 35, 1) 0%,
     rgba(237, 160, 45, 1) 100%
   );
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .descPrice i {
   padding-right: 7px;

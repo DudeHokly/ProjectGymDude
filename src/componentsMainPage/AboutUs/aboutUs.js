@@ -1,7 +1,5 @@
 import "./aboutUs.css";
 
-// const counterNumbers =
-// py-[120px] pr-[90px] pl-[550px]
 export default function AboutUS() {
   return (
     <section className="aboutUS flex justify-end ExtraLarge:justify-center bg-bgContactImgPhone Medium:bg-bgContactImgFull pt-[125px] pb-[160px]">

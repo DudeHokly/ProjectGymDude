@@ -53,7 +53,7 @@ const cards = [
 export default function RecomendBlock() {
   return (
     <section className="recomendBlockGym">
-      <div className="contentRecomendBlock _conteiner">
+      <div className="contentRecomendBlock _conteiner CardsScreen:w-[1300px]">
         <div className="rowRecomend">
           <h2 className="textRecomend">Почему стоит выбрать нас</h2>
           <h1 className="textRecomend2">Big PUMP</h1>
