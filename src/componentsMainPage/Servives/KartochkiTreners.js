@@ -4,8 +4,18 @@ import SportsMmaIcon from "@mui/icons-material/SportsMma";
 import SportsIcon from "@mui/icons-material/Sports";
 import "./KartochkiTreners.css";
 import "../../icons/css/fontello.css";
+import { useState } from "react";
 
 export default function KartochkiTreners() {
+  let [count, setCount] = useState(0);
+
+  let interval = setInterval(() => {
+    if (count >= 1000) {
+      clearInterval(interval)
+    }
+    setCount(count+1);
+  }, 30)
+
   return (
     <section className="facilities_section _conteiner">
       <div className="facilities_conteiner">
@@ -17,7 +27,7 @@ export default function KartochkiTreners() {
                   <FitnessCenterIcon fontSize="75px" />
                 </i>
               </figure>
-              <h5 className="textWhiteLeftyUp">ПЕРСОНАЛЬНЫЙ ТРЕНЕР</h5>
+              <h5 className="textWhiteLeftyUp">ПЕРСОНАЛЬНЫЙ ТРЕНЕР{count}</h5>
               <p className="textWhiteLeftyLow">
                 Тренерский стаж более 5 лет. Специализация, кросфит,
                 функциональный тренинг, бокс. Методики жиросжигания за 3 месяца.
