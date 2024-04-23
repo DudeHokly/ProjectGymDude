@@ -64,7 +64,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="CardFooter aboutCard padAbout3">
+            <div className="CardFooter aboutCard padAbout3 padAbout5">
               <h6>Quick Links</h6>
               <ul className="spisokFooter">
                 <li>
