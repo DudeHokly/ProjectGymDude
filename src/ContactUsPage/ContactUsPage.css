@@ -8,7 +8,7 @@
 .contactContent {
   position: fixed;
   top: 42%;
-  left: 50%;  
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -70,4 +70,23 @@
     rgba(237, 160, 45, 1) 100%
   );
   color: black;
+}
+@media screen and (max-width: 900px) {
+  .contactText {
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contactText {
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+  }
+  .logoContactUsPage {
+    font-size: 190px;
+    color: #000;
+  }
 }

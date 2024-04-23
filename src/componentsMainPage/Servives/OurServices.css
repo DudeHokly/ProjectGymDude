@@ -58,3 +58,25 @@
     transform: translateY(-150px) rotateX(0deg);
   }
 }
+@media screen and (max-width: 900px) {
+  .textServicess1 {
+    font-size: 41px;
+  }
+  .textServices2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .textServicess1 {
+    font-size: 30px;
+  }
+  .textServices2 {
+    font-size: 16px;
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .textServices2 {
+    padding: 0 20px;
+  }
+}

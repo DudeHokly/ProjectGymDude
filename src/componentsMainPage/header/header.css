@@ -40,12 +40,6 @@ header {
   color: azure;
   padding-top: 1px;
 }
-/* ._conteiner {
-  padding: 0 15px;
-  box-sizing: content-box;
-  max-width: 1110px;
-  margin: 0 auto;
-} */
 .menu {
   display: flex;
   align-items: center;

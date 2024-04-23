@@ -2,14 +2,14 @@ import "./aboutUs.css";
 import { useState } from "react";
 
 export default function AboutUS() {
-  let [count, setCount] = useState(0);
+  // let [count, setCount] = useState(0);
 
-  let interval = setInterval(() => {
-    if (count >= 1000) {
-      clearInterval(interval);
-    }
-    setCount(count + 1);
-  }, 300);
+  // let interval = setInterval(() => {
+  //   if (count >= 1000) {
+  //     clearInterval(interval);
+  //   }
+  //   setCount(count + 1);
+  // }, 300);
 
   return (
     <section className="aboutUS flex justify-end ExtraLarge:justify-center bg-bgContactImgPhone Medium:bg-bgContactImgFull pt-[125px] pb-[160px]">
@@ -27,19 +27,19 @@ export default function AboutUS() {
             </p>
             <div className="allResultAbout">
               <div className="resultsAbout">
-                <h3>600k+{count}</h3>
+                <h3>600K+{/* {count}*/}</h3>
                 <p>РАБОЧИХ ЧАСОВ</p>
               </div>
               <div className="resultsAbout">
-                <h3>790+</h3>
+                <h3>790K+</h3>
                 <p>ПРОГРАММ ТРЕНИРОВОК</p>
               </div>
               <div className="resultsAbout">
-                <h3>2560+</h3>
+                <h3>2560K+</h3>
                 <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
               </div>
               <div className="resultsAbout">
-                <h3>840+</h3>
+                <h3>840K+</h3>
                 <p>ИДЕАЛЬНЫЙ РЕЗУЛЬТАТ</p>
               </div>
             </div>
