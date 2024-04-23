@@ -68,15 +68,15 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-  @media screen and (max-width: 808px) {
-    .Kartochka:nth-of-type(3) {
-      display: none;
-    }
-    .kartochkiAnimated {
-      margin: 50px;
-      gap: 40px;
-      grid-template-columns: 1fr 1fr;
-    }
+@media screen and (max-width: 808px) {
+  .Kartochka:nth-of-type(3) {
+    display: none;
+  }
+  .kartochkiAnimated {
+    margin: 50px;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 560px) {
   .Kartochka:nth-of-type(2) {

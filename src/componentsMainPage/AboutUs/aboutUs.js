@@ -1,6 +1,16 @@
 import "./aboutUs.css";
+import { useState } from "react";
 
 export default function AboutUS() {
+  let [count, setCount] = useState(0);
+
+  let interval = setInterval(() => {
+    if (count >= 1000) {
+      clearInterval(interval);
+    }
+    setCount(count + 1);
+  }, 300);
+
   return (
     <section className="aboutUS flex justify-end ExtraLarge:justify-center bg-bgContactImgPhone Medium:bg-bgContactImgFull pt-[125px] pb-[160px]">
       <div className="contentUs Large:w-[430px] Large:max-w-full-[100%]  ExtraLarge:w-[1100px] w-full flex justify-end ">
@@ -17,7 +27,7 @@ export default function AboutUS() {
             </p>
             <div className="allResultAbout">
               <div className="resultsAbout">
-                <h3>600k+</h3>
+                <h3>600k+{count}</h3>
                 <p>РАБОЧИХ ЧАСОВ</p>
               </div>
               <div className="resultsAbout">

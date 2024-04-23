@@ -1,5 +1,4 @@
 .facilities_section {
-  /* background-color: black; */
   padding: 0 0 130px;
   margin-top: -315px;
 }
@@ -35,7 +34,6 @@
 .facilities_content {
   padding: 250px 0 40px 50px;
   line-height: 170%;
-  left: 40px;
   color: azure;
 }
 .icon_facilities {
@@ -79,13 +77,57 @@
 .KnowMoreBtnJoin:hover {
   background: #eda02d;
 }
+
 @media screen and (max-width: 1100px) {
   .facilities_content {
-    padding: 180px 0 40px 50px;
+    padding: 180px 0 40px 40px;
+  }
+  .row_kartochki {
+    padding: 0 25px;
+    gap: 22px;
+  }
+  .textWhiteLeftyLow {
+    padding: 0 25px 0 0;
   }
 }
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 900px) {
   .facilities_content {
-    padding: 180px 0 40px 50px;
+    padding: 70px 0 30px 35px;
+    line-height: 145%;
+  }
+  .row_kartochki {
+    padding: 0 25px;
+    gap: 22px;
+  }
+  .textWhiteLeftyLow {
+    padding: 0 25px 0 0;
+    font-size: 14px;
+  }
+  .textWhiteLeftyUp {
+    font-size: 18px;
+  }
+  .icon_facilities i {
+    font-weight: 400;
+    font-size: 45px;
+  }
+  .btn_more a {
+    font-size: 14px;
+  }
+  .KnowMoreBtnJoin {
+    min-height: 38px;
+    font-size: 15px;
+    padding: 7px 38px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .row_kartochki {
+    padding: 0 18px;
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .row_kartochki {
+    margin: 20px;
+    grid-template-columns: 1fr;
   }
 }
