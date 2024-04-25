@@ -12,7 +12,7 @@ module.exports = withMT({
       // => @media (min-width:992px)
       ExtraLarge: "1110px",
       // => @media (min-width:1110px)
-      CardsScreen: '1300px'
+      CardsScreen: "1300px",
       // => @media (min-width:1300px)
     },
     extend: {
@@ -20,7 +20,7 @@ module.exports = withMT({
         FontChange: ["Carlito", "serif"],
       },
       backgroundImage: {
-        bgContactImgPhone: "url('/src/images/ooo.jpg')",
+        bgContactImgPhone: "url('/src/images/bgContactImgPhone.png')",
         bgContactImgFull: "url('/src/images/GigaChad.png')",
       },
     },

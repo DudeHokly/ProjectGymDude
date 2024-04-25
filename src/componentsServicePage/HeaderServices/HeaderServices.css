@@ -32,3 +32,8 @@
 .bannerSectionContentBtn span {
   padding: 11px;
 }
+@media screen and (max-width: 995px) {
+  .row h1 {
+    font-size: 52px;
+  }
+}

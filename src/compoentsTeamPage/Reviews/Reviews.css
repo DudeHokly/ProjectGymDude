@@ -51,3 +51,57 @@
   transition: all 0.3s;
   background-color: #eda02d;
 }
+@media screen and (max-width: 1200px) {
+  .ReviewsContent {
+    padding: 160px 430px 145px 30px;
+  }
+  .rowReviews h4 {
+    font-size: 22px;
+    margin: 0 0 4px;
+  }
+  .rowReviews h2 {
+    margin: 0 0 23px;
+    font-size: 49px;
+  }
+  .TextReviews p {
+    font-size: 18.5px;
+    line-height: 138%;
+    padding-bottom: 24px;
+  }
+  .Client h6 {
+    font-size: 20px;
+  }
+  .Client p {
+    font-size: 15px;
+  }
+  .pointerMain {
+    gap: 13px;
+  }
+  .btnRev {
+    width: 62px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 852px) {
+  .ReviewsContent {
+    padding: 130px 240px 125px 30px;
+  }
+}
+@media screen and (max-width: 672px) {
+  .ReviewsContent {
+    padding: 122px 170px 115px 25px;
+  }
+  .rowReviews h4 {
+    font-size: 24px;
+  }
+  .rowReviews h2 {
+    font-size: 46px;
+  }
+  .TextReviews p {
+    font-size: 17.5px;
+  }
+  .btnRev {
+    width: 58px;
+    font-size: 28px;
+  }
+}

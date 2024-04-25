@@ -155,14 +155,85 @@ header {
 .logoBurger {
   display: none;
 }
-@media screen and (max-width: 930px) {
+.MenuMobile {
+  display: none;
+}
+@media screen and (max-width: 1170px) {
+  .ConteinerMonkeStrong {
+    padding: 200px 0 0 30px;
+  }
+  .text_header1 {
+    font-size: 46px;
+  }
+  .text_header2 {
+    font-size: 64px;
+  }
+  .text_header3 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .MenuMobile {
+    display: block;
+  }
   .menu_blocks {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav_menu {
     display: none;
   }
   .logoBurger {
     display: block;
-    font-size: 200px;
     right: 0;
-    justify-content: center;
+  }
+  .logoBurger svg {
+    font-size: 75px;
+  }
+  .ConteinerMonkeStrong {
+    padding: 180px 0 0 25px;
+  }
+  .text_header1 {
+    font-size: 42px;
+  }
+  .text_header2 {
+    font-size: 58px;
+  }
+  .text_header3 {
+    font-size: 26px;
+  }
+
+  /* css для мобилки */
+
+  .navMobile {
+    border: 2px solid #eda02d;
+    border-radius: 10px;
+    padding: 70px 60px;
+    font-size: 40px;
+    background-color: black;
+    box-shadow: 0 0 10px;
+  }
+  .blockNavGl {
+    font-size: 85px;
+    font-weight: 600;
+    color: #eda02d;
+  }
+}
+@media screen and (max-width: 670px) {
+  .ScrollLeft {
+    padding: 240px 0 145px;
+  }
+  .ConteinerMonkeStrong {
+    line-height: 420%;
+    padding: 200px 0 0 30px;
+  }
+  .text_header1 {
+    font-size: 28px;
+  }
+  .text_header2 {
+    font-size: 48px;
+  }
+  .text_header3 {
+    font-size: 22px;
   }
 }

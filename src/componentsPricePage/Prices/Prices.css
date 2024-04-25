@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  justify-items: center;
 }
 .BoxCard {
   display: flex;
@@ -83,4 +84,70 @@
 }
 .descPrice i {
   padding-right: 7px;
+}
+@media screen and (max-width: 1310px) {
+  .textServices1 {
+    font-size: 39px;
+    padding: 5px 0 13px;
+  }
+  .PricesCardsBlock {
+    gap: 30px;
+  }
+  .BoxCard {
+    width: 290px;
+  }
+  .ContentPricesPage {
+    padding: 60px 25px 12px;
+  }
+  .titlePrice {
+    padding: 8px 0 2px;
+    font-size: 21px;
+    margin: 0 0 13px;
+  }
+  .descPriceCard {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .circle__price {
+    font-size: 22px;
+    line-height: 135%;
+  }
+  .forCirclePricePage {
+    width: 130px;
+  }
+  .descPrice i {
+    padding-right: 7px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .PricesCardsBlock {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 0 20px;
+  }
+  .textServices2 {
+    font-size: 21px;
+    padding: 0 160px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .PricesCardsBlock {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 0 15px;
+  }
+  .textServices1 {
+    font-size: 36px;
+    padding: 5px 0 13px;
+  }
+  .textServices2 {
+    font-size: 19px;
+    padding: 0 70px;
+  }
+  .BoxCard {
+    width: 320px;
+  }
+  .ContentPricesPage {
+    padding: 60px 25px 12px;
+  }
 }

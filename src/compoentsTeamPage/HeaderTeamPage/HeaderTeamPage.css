@@ -1,3 +1,9 @@
 .HeaderTeamPage {
-  background-image: url(../../images/HederTeamPage.jpg);
+  background-image: url(../../images/HederTeamPage.png);
+  background-position: top;
+}
+@media screen and (max-width: 1450px) {
+  .HeaderTeamPage {
+    background-position: center;
+  }
 }
