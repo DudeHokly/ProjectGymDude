@@ -175,6 +175,9 @@ header {
 @media screen and (max-width: 995px) {
   .MenuMobile {
     display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
   }
   .menu_blocks {
     display: flex;

@@ -5,7 +5,7 @@ export default function AboutUS() {
   // let [count, setCount] = useState(0);
 
   // let interval = setInterval(() => {
-  //   if (count >= 1000) {
+  //   if (count >= 600) {
   //     clearInterval(interval);
   //   }
   //   setCount(count + 1);
@@ -27,7 +27,7 @@ export default function AboutUS() {
             </p>
             <div className="allResultAbout">
               <div className="resultsAbout">
-                <h3>600K+{/* {count}*/}</h3>
+                { <h3>600K+{/*count*/}</h3> }
                 <p>РАБОЧИХ ЧАСОВ</p>
               </div>
               <div className="resultsAbout">

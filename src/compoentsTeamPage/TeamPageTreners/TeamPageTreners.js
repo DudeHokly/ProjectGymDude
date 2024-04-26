@@ -35,6 +35,7 @@ const cardOfTrenners = [
     Trenera: Trenner5,
     nameTrener: "Кибер Демон",
     textTeam1: <p className="textTeam">Гига Хакинг</p>,
+    dudeImage: true,
   },
   {
     Trenera: Trenner6,
@@ -59,12 +60,51 @@ const cardOfTrenners = [
 ];
 
 const generCards = cardOfTrenners.map((elem, i) => {
+  if (elem.dudeImage) {
+    return <TrenerSpecialCard elem={elem} />;
+  }
   return <TrenerCard elem={elem} />;
 });
 
 function TrenerCard({ elem }) {
   return (
     <div className="boxKartochki">
+      <figure className="topPhotoTrenera">
+        <img
+          src={elem.Trenera}
+          alt="Фото тренера"
+          className="photoTrenera"
+        ></img>
+      </figure>
+      <div className="lowerTextKartochki">
+        <h5 className="nameTrener">{elem.nameTrener}</h5>
+        <p className="textTeam">{elem.textTeam1}</p>
+        <div className="TeamIcons">
+          <a href="#">
+            <i className="icon-skype"></i>
+          </a>
+          <a href="#">
+            <i className="icon-paper-plane"></i>
+          </a>
+          <a href="#">
+            <i className="icon-gplus"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrenerSpecialCard({ elem }) {
+  return (
+    <div className="boxKartochki">
+      <figure className="topPhotoTrenera">
+        <img
+          src={elem.Trenera}
+          alt="Фото тренера"
+          className="photoTrenera"
+        ></img>
+      </figure>
       <figure className="topPhotoTrenera">
         <img
           src={elem.Trenera}
