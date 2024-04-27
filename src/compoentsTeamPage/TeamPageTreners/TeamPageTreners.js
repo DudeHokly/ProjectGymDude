@@ -33,8 +33,8 @@ const cardOfTrenners = [
   },
   {
     Trenera: Trenner5,
-    nameTrener: "Кибер Демон",
-    textTeam1: <p className="textTeam">Гига Хакинг</p>,
+    nameTrener: "Кулябин Степан Юрьевич",
+    textTeam1: <p className="textTeam">Тренер</p>,
     dudeImage: true,
   },
   {
@@ -98,18 +98,11 @@ function TrenerCard({ elem }) {
 function TrenerSpecialCard({ elem }) {
   return (
     <div className="boxKartochki">
-      <figure className="topPhotoTrenera">
+      <figure className="topPhotoTreneraSpecial">
         <img
           src={elem.Trenera}
           alt="Фото тренера"
-          className="photoTrenera"
-        ></img>
-      </figure>
-      <figure className="topPhotoTrenera">
-        <img
-          src={elem.Trenera}
-          alt="Фото тренера"
-          className="photoTrenera"
+          className="photoTreneraSpecial"
         ></img>
       </figure>
       <div className="lowerTextKartochki">

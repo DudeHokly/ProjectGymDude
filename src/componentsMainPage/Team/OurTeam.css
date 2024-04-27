@@ -35,6 +35,18 @@
   display: flex;
   justify-content: center;
 }
+/* .topPhotoTreneraSpecial {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+.photoTreneraSpecial {
+  border-radius: 60px;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 0 15px;
+}
 .photoTrenera {
   border-radius: 60px;
   height: 400px;
