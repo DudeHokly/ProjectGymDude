@@ -30,6 +30,8 @@ import CheckoutForm from "./PaymentForm/PaymentForm.js";
 
 import RecForm from "./RecordingForm/RecordingForm.js";
 
+import Profile from "./ProfilePage/ProfilePage.js";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -67,6 +69,10 @@ const router = createBrowserRouter([
   {
     path: "/RecordinFormPage",
     element: <SimpleRecordingForm />,
+  },
+  {
+    path: "/ProfilePage",
+    element: <SimpleProfile />,
   },
 ]);
 
@@ -166,6 +172,9 @@ function SimpleRecordingForm() {
       <RecForm />
     </div>
   );
+}
+function SimpleProfile() {
+  return <Profile />;
 }
 
 export default function App() {

@@ -53,7 +53,7 @@ export default function HeaderNav() {
               </Link>
             </li>
             <li className="iconNav">
-              <Link to="/" className="defolt iconAutoriz">
+              <Link to="/ProfilePage" className="defolt iconAutoriz">
                 <i className="icon-user iconSing"></i>
               </Link>
               <ul className="iconSingIn">
@@ -76,7 +76,11 @@ export default function HeaderNav() {
             </li>
           </ul>
         </nav>
-        <div data-testid="menu-open" className="contentBurger" onClick={menuClick}>
+        <div
+          data-testid="menu-open"
+          className="contentBurger"
+          onClick={menuClick}
+        >
           <Link to="" className="defolt">
             <i className="logoBurger">
               <MenuIcon />
@@ -89,7 +93,11 @@ export default function HeaderNav() {
         <div data-testid="menu" className="MenuMobile">
           <nav className="navMobile">
             <ul className="navigationMobile">
-              <li data-testid="menu-close" className="contentBurger" onClick={menuDisable}>
+              <li
+                data-testid="menu-close"
+                className="contentBurger"
+                onClick={menuDisable}
+              >
                 <Link to="" className="defoltMobile">
                   <i className="logoBurger">
                     <CloseIcon />
