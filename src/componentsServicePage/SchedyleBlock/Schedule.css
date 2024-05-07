@@ -56,6 +56,15 @@
     rgba(237, 160, 45, 1) 100%
   );
 }
+.btnSchedule {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.scheduleBtn {
+  padding: 7px 35px;
+  color: black;
+}
 @media screen and (max-width: 990px) {
   .ScheduleSection {
     padding: 0 10px 115px;
@@ -79,6 +88,13 @@
   .ScheduleText2 {
     margin: 0 0 25px;
     font-size: 28px;
+  }
+  .btnSchedule {
+    margin-top: 25px;
+  }
+  .scheduleBtn {
+    font-size: 16px;
+    padding: 10px 26px;
   }
 }
 @media screen and (max-width: 680px) {
@@ -106,5 +122,12 @@
   .ScheduleText2 {
     margin: 0 0 25px;
     font-size: 19px;
+  }
+  .btnSchedule {
+    margin-top: 15px;
+  }
+  .scheduleBtn {
+    font-size: 14px;
+    padding: 10px 20px;
   }
 }

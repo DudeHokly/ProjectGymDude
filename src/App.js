@@ -26,6 +26,10 @@ import ContactUs from "./ContactUsPage/ContactUsPage.js";
 import SimpleRegistrationForm from "./RegistrationGestPage/RegistrationGestPage.js";
 import SimpleAutorizationForm from "./AuthorizationGestPage/AuthorizationGestPage.js";
 
+import CheckoutForm from "./PaymentForm/PaymentForm.js";
+
+import RecForm from "./RecordingForm/RecordingForm.js";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,6 +59,14 @@ const router = createBrowserRouter([
   {
     path: "/Authorization",
     element: <SimpleAutorization />,
+  },
+  {
+    path: "/Payment",
+    element: <SimplePaymentForm />,
+  },
+  {
+    path: "/RecordinFormPage",
+    element: <SimpleRecordingForm />,
   },
 ]);
 
@@ -138,6 +150,20 @@ function SimpleAutorization() {
   return (
     <div className="Authoriz">
       <SimpleAutorizationForm />
+    </div>
+  );
+}
+function SimplePaymentForm() {
+  return (
+    <div className="PayForm">
+      <CheckoutForm />
+    </div>
+  );
+}
+function SimpleRecordingForm() {
+  return (
+    <div className="RecordForm">
+      <RecForm />
     </div>
   );
 }

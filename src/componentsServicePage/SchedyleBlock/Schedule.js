@@ -1,4 +1,5 @@
 import SportsBasketballIcon from "@mui/icons-material/SportsBasketball";
+import { Link } from "react-router-dom";
 import "./Schedule.css";
 import "../../icons/css/fontello.css";
 
@@ -94,6 +95,11 @@ export default function Schedule() {
           </h2>
         </div>
         <div className="ScheduleTable">{scheduleJsx}</div>
+        <div className="buttonJoin btnSchedule">
+          <Link to="/RecordinFormPage" className="buttonUs scheduleBtn">
+            Записаться на занятие
+          </Link>
+        </div>
       </div>
     </section>
   );

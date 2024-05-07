@@ -1,0 +1,22 @@
+.PayForm {
+  background-image: url(../images/SignUpPage.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.iconPay {
+  font-size: 40px;
+}
+.BtnPayment {
+  width: 100%;
+}
+.m-0 {
+  padding: 42px;
+}
+.payBodyForm {
+  padding: 30px 20px;
+}
+.padPayBlock {
+  padding: 10px 15px;
+}

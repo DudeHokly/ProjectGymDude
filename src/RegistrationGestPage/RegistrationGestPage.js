@@ -79,7 +79,7 @@ export default function SimpleRegistrationForm() {
             <Link to="/">
               {" "}
               <Button className="mt-6" fullWidth>
-                Авторизоваться
+                Зарегестрироваться
               </Button>{" "}
             </Link>
 
