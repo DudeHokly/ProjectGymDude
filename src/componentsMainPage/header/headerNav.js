@@ -68,8 +68,8 @@ export default function HeaderNav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="defoltIcon">
-                    Помощь
+                  <Link to="/ProfilePage" className="defoltIcon">
+                    Профиль
                   </Link>
                 </li>
               </ul>

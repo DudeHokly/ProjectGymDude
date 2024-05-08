@@ -1,75 +1,151 @@
 import "./ProfilePage.css";
+import { Link } from "react-router-dom";
+import "../icons/css/fontello.css";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 
 export default function Profile() {
   return (
     <section className="yourProfile">
       <div className="container">
         <div className="main-body">
-          <div className="row gutters-sm">
+          <div className="row1 gutters-sm">
             <div className="col-md-4 mb-3">
               <div className="card">
                 <div className="card-body">
-                  <div className="">
+                  <div className="AvatarBlock">
                     <img
                       src="https://bootdey.com/img/Content/avatar/avatar7.png"
                       alt="Admin"
                       className="rounded-circle"
                       width="150"
                     />
-                    <div className="">
-                      <h4>John Doe</h4>
-                      <p className="">Full Stack Developer</p>
-                      <p className="">Bay Area, San Francisco, CA</p>
+                    <div className="avatarText">
+                      <h4 className="nickname">Ваш никнейм</h4>
+                      <p className="userProfile">Пользователь</p>
+                      <div className="flexDivProfil">
+                        <button class="btnFullBack">Редактировать</button>
+                        <button class="btnNotFullBack">Сообщения</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="">
+            <div className="secondCard">
               <div className="card">
                 <div className="card-body">
-                  <div className="row">
-                    <div className="">
-                      <h6 className="">Full Name</h6>
-                    </div>
-                    <div className="c">Kenneth Valdez</div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="">
-                      <h6 className="">Email</h6>
-                    </div>
-                    <div className="">fip@jukmuh.al</div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="">
-                      <h6 className="">Phone</h6>
-                    </div>
-                    <div className="">(239) 816-9029</div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="">
-                      <h6 className="">Mobile</h6>
-                    </div>
-                    <div className="">(320) 380-4539</div>
-                  </div>
-                  <hr />
-                  <div className="row">
-                    <div className="col-sm-3">
-                      <h6 className="mb-0">Address</h6>
-                    </div>
-                    <div className="text-secondary">
-                      Bay Area, San Francisco, CA
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/">
+                        <h6 className="linkToPageProfile">
+                          Перейти на главную
+                        </h6>
+                      </Link>
                     </div>
                   </div>
-                  <hr />
-                  <div className="">
-                    <div className="">
-                      <a className="">Edit</a>
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/RecordinFormPage">
+                        <h6 className="linkToPageProfile">
+                          Проверить запись на занятие
+                        </h6>
+                      </Link>
                     </div>
                   </div>
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/services">
+                        <h6 className="linkToPageProfile">
+                          Посетить наши услуги
+                        </h6>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/ContactUs">
+                        <h6 className="linkToPageProfile">Связаться с нами</h6>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/Pricing">
+                        <h6 className="linkToPageProfile">
+                          Посмотреть цены на услуги
+                        </h6>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="row2">
+                    <div className="textProfile">
+                      <Link to="/TeamPage">
+                        <h6 className="linkToPageProfile">
+                          Узнать о наших тренерах
+                        </h6>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="ThirdCard">
+            <div className="card">
+              <div className="card-body">
+                <div className="row2 rowTextProfile">
+                  <i className="icon-right-open"></i>
+                  <a href="#" alt="Иконка" className="iconProfile">
+                    <TelegramIcon />
+                  </a>
+                  <Link>
+                    <h6 className="linkToPageProfile">Наш телеграм</h6>
+                  </Link>
+                </div>
+                <div className="row2 rowTextProfile">
+                  <i className="icon-right-open"></i>
+                  <a href="#" alt="Иконка" className="iconProfile">
+                    <WhatsAppIcon />
+                  </a>
+                  <Link>
+                    <h6 className="linkToPageProfile">Наш Вотсап</h6>
+                  </Link>
+                </div>
+                <div className="row2 rowTextProfile">
+                  <i className="icon-right-open"></i>
+                  <a href="#" alt="Иконка" className="iconProfile">
+                    <YouTubeIcon />
+                  </a>
+                  <Link>
+                    <h6 className="linkToPageProfile">Наш Ютуб</h6>
+                  </Link>
+                </div>
+                <div className="row2 rowTextProfile">
+                  <i className="icon-right-open"></i>
+                  <a href="#" alt="Иконка" className="iconProfile">
+                    <GitHubIcon />
+                  </a>
+                  <Link>
+                    <h6 className="linkToPageProfile">Наш Гит</h6>
+                  </Link>
+                </div>
+                <div className="row2 rowTextProfile">
+                  <i className="icon-right-open"></i>
+                  <a href="#" alt="Иконка" className="iconProfile">
+                    <ThumbUpIcon />
+                  </a>
+                  <Link>
+                    <h6 className="linkToPageProfile">Палец Вверх</h6>
+                  </Link>
+                </div>
+                <div className="profileJoinBtn">
+                  <Link to="/" className="borderDiv">
+                    Присоединиться
+                  </Link>
                 </div>
               </div>
             </div>
