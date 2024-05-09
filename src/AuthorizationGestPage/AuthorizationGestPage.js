@@ -74,9 +74,12 @@ export default function SimpleAutorizationForm() {
 
             <Typography className="mt-4 text-center font-normal">
               Уже есть аккаунт?{" "}
-              <a href="#" className="font-medium text-gray-900">
+              <Link
+                to="/Registration"
+                className="font-medium text-gray-900 touch"
+              >
                 Регистрация
-              </a>
+              </Link>
             </Typography>
           </form>
         </div>
