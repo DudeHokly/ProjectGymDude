@@ -46,7 +46,7 @@ function KartaPrice({ elem }) {
         </ul>
         <div className="forPricePadding">
           <Link to="/Payment" className="priceJoin joinPrices">
-            Купить абонент
+            Купить абонемент
           </Link>
         </div>
       </div>

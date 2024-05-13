@@ -28,7 +28,7 @@ export default function Profile() {
                       <p className="userProfile">Пользователь</p>
                       <div className="flexDivProfil">
                         <button class="btnFullBack">Редактировать</button>
-                        <button class="btnNotFullBack">Сообщения</button>
+                        <button class="btnNotFullBack">Управлять</button>
                       </div>
                     </div>
                   </div>
