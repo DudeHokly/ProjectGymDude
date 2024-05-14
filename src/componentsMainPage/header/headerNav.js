@@ -147,9 +147,9 @@ export default function HeaderNav() {
                 </Link>
               </li>
               <li className="blockNav">
-                <Link to="/" className="defoltIcon">
+                <Link to="/ProfilePage" className="defoltIcon">
                   <i className="icon-right-open"></i>
-                  Помощь
+                  Профиль
                 </Link>
               </li>
             </ul>
